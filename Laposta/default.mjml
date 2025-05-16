@@ -44,7 +44,7 @@
     <mj-section background-color="#f1eee9" padding="0px 24px 16px 24px">
       <mj-group>
         <mj-column padding="24px 0px 24px 0px" vertical-align="middle">
-          <mj-image src="./I136_840_79_219_52_69.png" alt="" css-class="lp-logo" align="left" border-radius="8px" width="134px">
+          <mj-image src="images/I136_840_79_219_52_69.png" alt="" css-class="lp-logo" align="left" border-radius="8px" width="134px">
           </mj-image>
         </mj-column>
         <mj-column padding="24px 0px 24px 0px" vertical-align="middle">
@@ -63,7 +63,7 @@
     <mj-raw>
       <lp-layout lp-label="Hero">
     </mj-raw>
-    <mj-wrapper background-url="./header-light.png" background-size="auto 100%" background-repeat="repeat" background-position="center top" full-width="full-width" padding="0px 0px 0px 0px">
+    <mj-wrapper background-url="images/header-light.png" background-size="auto 100%" background-repeat="repeat" background-position="center top" full-width="full-width" padding="0px 0px 0px 0px">
       <mj-raw>
         <lp-layout lp-label="Hero">
       </mj-raw>
@@ -95,7 +95,7 @@
           <mj-raw>
             <tr>
               <td class="toc" style="font-size: 20px; font-weight: 400; font-family:Arial; color: #212529; line-height: 32px;">
-                <lp-toc lp-bullet-padding-right="16" lp-bullet-padding-left="1" lp-bullet="./lp-toc.png" />
+                <lp-toc lp-bullet-padding-right="16" lp-bullet-padding-left="1" lp-bullet="images/lp-toc.png" />
             </tr>
             </td>
           </mj-raw>
@@ -207,7 +207,7 @@
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
           </H2>
         </mj-text>
-        <mj-image src="./I114_344_114_340_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" border-radius="8px" width="652px">
+        <mj-image src="images/I114_344_114_340_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" border-radius="8px" width="652px">
         </mj-image>
         <mj-text padding="24px 0px 24px 0px" color="#1d1a14" font-size="16px" font-family="Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Titel"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
@@ -231,7 +231,7 @@
           </H2>
         </mj-text>
         <mj-text color="#1d1a14" font-size="16px" font-family="Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Titel"><img class="inline-image" src="./I117_1052_115_1035_37_172_37_110.png" width="322" height="110" align="right" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
+          <lp-multiline lp-label="Titel"><img class="inline-image" src="images/I117_1052_115_1035_37_172_37_110.png" width="322" height="110" align="right" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -249,7 +249,7 @@
           </H2>
         </mj-text>
         <mj-text color="#1d1a14" font-size="16px" font-family="Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Titel"><img class="inline-image" src="./I117_1136_117_1080_37_116_37_110.png" width="322" height="110" align="left" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
+          <lp-multiline lp-label="Titel"><img class="inline-image" src="images/I117_1136_117_1080_37_116_37_110.png" width="322" height="110" align="left" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -261,7 +261,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column width="200px" vertical-align="top">
-        <mj-image src="./I119_1508_119_1479_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" border-radius="8px" width="200px">
+        <mj-image src="images/I119_1508_119_1479_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" border-radius="8px" width="200px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -287,7 +287,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
       <mj-column vertical-align="top">
-        <mj-image src="./I120_1643_41_255_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="652px">
+        <mj-image src="images/I120_1643_41_255_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="652px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -357,7 +357,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I117_1372_117_1334_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" border-radius="8px" width="318px">
+        <mj-image src="images/I117_1372_117_1334_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" border-radius="8px" width="318px">
         </mj-image>
         <mj-text padding="16px 0px 8px 0px" color="#1d1a14" font-size="28px" font-family="Arial" font-weight="700" line-height="34px" align="left" text-decoration="none">
           <H3>
@@ -373,7 +373,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I117_1372_117_1358_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" border-radius="8px" width="318px">
+        <mj-image src="images/I117_1372_117_1358_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" border-radius="8px" width="318px">
         </mj-image>
         <mj-text padding="16px 0px 8px 0px" color="#1d1a14" font-size="28px" font-family="Arial" font-weight="700" line-height="34px" align="left" text-decoration="none">
           <H3>
@@ -393,7 +393,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I120_1655_119_1595_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="318px">
+        <mj-image src="images/I120_1655_119_1595_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="318px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -401,7 +401,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I120_1655_119_1599_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="318px">
+        <mj-image src="images/I120_1655_119_1599_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="318px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -413,7 +413,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
       <mj-column width="206.6666717529297px" vertical-align="top">
-        <mj-image src="./I120_1649_119_1624_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="206.6666717529297px">
+        <mj-image src="images/I120_1649_119_1624_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="206.6666717529297px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -421,7 +421,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="206.66665649414062px" vertical-align="top">
-        <mj-image src="./I120_1649_119_1628_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="206.66665649414062px">
+        <mj-image src="images/I120_1649_119_1628_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="206.66665649414062px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -429,7 +429,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="206.66665649414062px" vertical-align="top">
-        <mj-image src="./I120_1649_119_1637_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="206.66665649414062px">
+        <mj-image src="images/I120_1649_119_1637_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="206.66665649414062px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -605,16 +605,16 @@
               <table cellpadding="0" cellspacing="0" border="0">
                 <tbody>
                   <tr>
-                    <td align="left" valign="middle"> <img src="./I2001_1532_2001_1529.png" alt
+                    <td align="left" valign="middle"> <img src="images/I2001_1532_2001_1529.png" alt
                           height="32" style="height:32px;width:auto"> </td>
                     <td style="font-size:8px;padding:0;word-break:break-word" width="24"><div style="height:8px;line-height:8px">&nbsp;</div></td>
-                    <td align="left" valign="middle"> <img src="./I2001_1532_2001_1530.png" alt
+                    <td align="left" valign="middle"> <img src="images/I2001_1532_2001_1530.png" alt
                         height="32" style="height:32px;width:auto"> </td>
                     <td style="font-size:8px;padding:0;word-break:break-word" width="24"><div style="height:8px;line-height:8px">&nbsp;</div></td>
-                    <td align="left" valign="middle"> <img src="./I2001_1532_2001_1531.png" alt
+                    <td align="left" valign="middle"> <img src="images/I2001_1532_2001_1531.png" alt
                         height="32" style="height:32px;width:auto"> </td>
                     <td style="font-size:8px;padding:0;word-break:break-word" width="24"><div style="height:8px;line-height:8px">&nbsp;</div></td>
-                    <td align="left" valign="middle"> <img src="./I2001_1532_2001_1528.png" alt
+                    <td align="left" valign="middle"> <img src="images/I2001_1532_2001_1528.png" alt
                         height="32" style="height:32px;width:auto"> </td>
                     <td style="font-size:8px;padding:0;word-break:break-word" width="32"><div style="height:8px;line-height:8px">&nbsp;</div></td>
                     <td align="left" valign="middle" style="font-size:0;word-break:break-word">
