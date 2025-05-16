@@ -1,0 +1,971 @@
+<mjml
+  ><mj-head
+    ><mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"></mj-font>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"></mj-font>
+    <mj-font name="Arial" href="https://fonts.cdnfonts.com/css/arial"></mj-font>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"></mj-font>
+    <mj-font name="Verdana" href="https://fonts.cdnfonts.com/css/verdana"></mj-font>
+    <mj-font name="Times New Roman" href="https://fonts.cdnfonts.com/css/times-new-roman"></mj-font>
+    <mj-font name="Georgia" href="https://fonts.cdnfonts.com/css/georgia"></mj-font>
+    <mj-font name="Tahoma" href="https://fonts.cdnfonts.com/css/tahoma"></mj-font>
+    <mj-font name="Trebuchet MS" href="https://fonts.cdnfonts.com/css/trebuchet-ms-2"></mj-font>
+    <mj-font name="Garamond" href="https://fonts.cdnfonts.com/css/garamond"></mj-font>
+    <mj-font name="Calibri" href="https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic"></mj-font>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"></mj-font>
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"></mj-font>
+    <mj-font name="Geist" href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"></mj-font>
+    <mj-font name="Raleway" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"></mj-font>
+    <mj-style inline="inline">.dhi { display: none !important; } .bBg { background-color: #ffffff !important }</mj-style>
+
+    <mj-style inline="inline"
+      >.ll { display: block !important; } .dl { display: none !important; } .dh { display: none !important; mso-hide: all !important; } .dh table,.dh tbody,.dh tr,.dh td,.dh div,.dh p,.dh a,.dh span,.dh img { mso-hide: all !important; }
+      .r>tbody>tr>td>div { max-width: 100% !important; } .mj-g { text-align: center !important; width: fit-content !important; max-width: 100% !important; } .left { text-align: left !important; } .right { text-align: right !important; } .nf
+      td { width: 100% !important; } .nc .nf img,.gc .nf img,.mj-h .nf img,.if img { max-width: 100% !important; height: auto !important; } ul,ol { margin-top: 0px !important; margin-bottom: 0px !important; padding-left: 25px !important; }
+      .mj-t div { height: auto !important; }
+    </mj-style>
+    <mj-raw
+      ><style type="text/css">
+        @media only screen and (min-width: 320px) {
+          body::-webkit-scrollbar {
+            display: none !important;
+          }
+          p,
+          a {
+            margin: 0 !important;
+          }
+          .mj-t > div > div > table > tbody > tr > td {
+            padding: 0 !important;
+          }
+          .mj-t div.component-wrapper > table > tbody > tr > td {
+            padding: 0 !important;
+          }
+        }
+      </style></mj-raw
+    >
+    <mj-style inline="inline"
+      >.f9a-e8 { border-radius: 0px; } .f9a-e8>table>tbody>tr>td { text-align: left !important; } .fbf-76 { border-radius: 0px; } .fbf-76>table>tbody>tr>td { text-align: left !important; } .a94-dd { border-radius: 0px; padding-top: 0px
+      !important; padding-bottom: 0px !important; padding-right: 0px !important; padding-left: 0px !important; } .da2-db { border-radius: 0px; } .ebb-fd { border-radius: 0px; } .ebb-fd>table>tbody>tr>td { text-align: left !important; }
+      .d83-09 { border-radius: 0px; } .bbd-1e { border-radius: 0px; } .bbd-1e>table>tbody>tr>td { text-align: left !important; } .c84-5d { border-radius: 0px; } .ba7-4f { border-radius: 0px; } .ba7-4f>table>tbody>tr>td { text-align: left
+      !important; } .fba-76 { border-radius: 0px; } .cb2-b0 { border-radius: 0px; } .cb2-b0>table>tbody>tr>td { text-align: left !important; } .ea5-68 { border-radius: 0px; } .ea5-68>table>tbody>tr>td { text-align: left !important; }
+      .c8e-b6 { border-radius: 0px; } .fa0-7a { border-radius: 0px; } .fa0-7a>table>tbody>tr>td { text-align: left !important; } .e8e-8d { border-radius: 0px; } .e8e-8d>table>tbody>tr>td { text-align: left !important; } .dbb-36 {
+      border-radius: 0px; } .aa8-f8 { border-radius: 0px; } .aa8-f8>table>tbody>tr>td { text-align: left !important; } .d9d-29 { border-radius: 0px; } .d9d-29>table>tbody>tr>td { text-align: left !important; } .aa3-2f { border-radius: 0px;
+      } .abb-15 { border-radius: 0px; } .abb-15>table>tbody>tr>td { text-align: left !important; } .ca1-8f { border-radius: 0px; } .bbd-ed { border-radius: 0px; } .bbd-ed>table>tbody>tr>td { text-align: left !important; } .a91-6f {
+      border-radius: 0px; } .a91-6f>table>tbody>tr>td { text-align: left !important; } .bbd-7d { border-radius: 0px; padding-top: 0px !important; padding-bottom: 0px !important; padding-right: 0px !important; padding-left: 0px !important; }
+      .d8b-a5 { border-radius: 0px; } .d8b-a5>table>tbody>tr>td { text-align: left !important; } .d94-15 { border-radius: 0px; } .d94-15>table>tbody>tr>td { text-align: left !important; } .d80-dd { border-radius: 0px; padding-top: 0px
+      !important; padding-bottom: 0px !important; padding-right: 0px !important; padding-left: 0px !important; } .a96-7e { border-radius: 0px; } .bb1-94 { border-radius: 0px; } .bb1-94>table>tbody>tr>td { text-align: left !important; }
+      .aab-e0 { border-radius: 0px; } .a96-05 { border-radius: 0px; } .a96-05>table>tbody>tr>td { text-align: left !important; } .a85-63 { border-radius: 0px; } .d94-e3 { border-radius: 0px; } .d94-e3>table>tbody>tr>td { text-align: left
+      !important; } .fbf-a4 { border-radius: 0px; }
+    </mj-style>
+    <mj-raw
+      ><style type="text/css">
+        @media only screen and (min-width: 768px) {
+          .fbf-9e img {
+            width: auto !important;
+          }
+        }
+      </style></mj-raw
+    >
+    <mj-raw
+      ><style type="text/css">
+        @media only screen and (max-width: 768px) {
+          .dh {
+            display: block !important;
+          }
+          .mh {
+            display: none !important;
+            mso-hide: all !important;
+          }
+          .mh table,
+          .mh tbody,
+          .mh tr,
+          .mh td,
+          .mh div,
+          .mh p,
+          .mh a,
+          .mh span,
+          .mh img {
+            mso-hide: all !important;
+          }
+          .mj-g {
+            width: 100% !important;
+            max-width: 100% !important;
+          }
+          .gc .nf img {
+            max-width: 100% !important;
+            height: auto !important;
+          }
+          .mj-b > table {
+            width: 100% !important;
+          }
+          .mj-b p,
+          .mj-b a {
+            padding: initial !important;
+          }
+          .mj-h > table > tbody > tr > td {
+            height: auto !important;
+          }
+          .fbf-9e img {
+            height: auto !important;
+          }
+          div.b {
+            padding: 0px 0px 0px 0px !important;
+          }
+        }
+      </style></mj-raw
+    >
+    <mj-raw
+      ><style type="text/css">
+        :root {
+          color-scheme: light;
+          supported-color-schemes: light;
+        }
+        @media (prefers-color-scheme: dark) {
+          :root {
+            color-scheme: dark;
+            supported-color-schemes: dark light;
+          }
+          .ll {
+            display: none !important;
+          }
+          .dl {
+            display: block !important;
+          }
+          .b {
+            background-color: #000000 !important;
+          }
+          .mj-w,
+          .mj-w > table,
+          .mj-w .f > table > tbody > tr > td,
+          .mj-w .f > tbody > tr > td,
+          .mj-w .mj-h > table > tbody > tr > td,
+          .mj-w .f .mj-t,
+          .mj-w .f .mj-b {
+            background-color: #1f1f1f !important;
+          }
+          .mj-w .text,
+          .mj-w .text > div,
+          .mj-w p {
+            color: #ffffff !important;
+          }
+          .mj-w .link,
+          .mj-w .link > div {
+            color: #ffffff !important;
+          }
+        }
+      </style></mj-raw
+    ></mj-head
+  >
+  <mj-body width="640px" css-class="b bBg"
+    ><mj-wrapper
+      padding="0px"
+      padding-bottom="0px"
+      padding-top="0px"
+      padding-left="0px"
+      padding-right="0px"
+      border-radius="0px"
+      background-repeat="no-repeat"
+      background-position="center center"
+      background-size="cover"
+      background-color="#FFFFFF"
+      css-class="fb3-fb r mj-w"
+      ><mj-section
+        padding="0px"
+        padding-bottom="0px"
+        padding-top="0px"
+        padding-left="0px"
+        padding-right="0px"
+        border-radius="0px"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="da2-db r f mj-s"
+        text-align="center"
+        ><mj-group css-class="a94-dd mj-g" vertical-align="middle" width="100%"
+          ><mj-column width="50%" padding="0px" padding-bottom="10px" padding-top="10px" padding-left="20px" padding-right="20px" border-radius="0px" background-color="#EEEEEE" css-class="f9a-e8 f mj-c gc" vertical-align="middle"
+            ><mj-text
+              height="15px"
+              text-transform="none"
+              align="left"
+              padding="0px"
+              padding-top="0px"
+              padding-bottom="0px"
+              padding-left="0px"
+              padding-right="0px"
+              letter-spacing="0px"
+              font-family="Inter, Inter"
+              font-style="normal"
+              font-size="12px"
+              font-weight="700"
+              line-height="1.2"
+              color="#767676"
+              text-decoration="none"
+              css-class="d89-ba text mj-t"
+              ><span style="" class="text">Pre header Text</span></mj-text
+            ></mj-column
+          >
+          <mj-column width="50%" padding="0px" padding-bottom="10px" padding-top="10px" padding-left="20px" padding-right="20px" border-radius="0px" background-color="#EEEEEE" css-class="fbf-76 f mj-c gc" vertical-align="middle"
+            ><mj-text
+              height="15px"
+              text-transform="none"
+              align="right"
+              padding="0px"
+              padding-top="0px"
+              padding-bottom="0px"
+              padding-left="0px"
+              padding-right="0px"
+              letter-spacing="0px"
+              font-family="Inter, Inter"
+              font-style="normal"
+              font-size="12px"
+              font-weight="700"
+              line-height="1.2"
+              color="#767676"
+              text-decoration="none"
+              css-class="a80-08 text mj-t"
+              ><span style="" class="text">View Online</span></mj-text
+            ></mj-column
+          ></mj-group
+        ></mj-section
+      ></mj-wrapper
+    >
+    <mj-wrapper
+      padding="0px"
+      padding-bottom="8px"
+      padding-top="8px"
+      padding-left="16px"
+      padding-right="16px"
+      border-radius="0px"
+      background-repeat="no-repeat"
+      background-position="center center"
+      background-size="cover"
+      background-color="#EEEEEE"
+      css-class="f84-79 r mj-w"
+      ><mj-section
+        padding="0px"
+        padding-bottom="0px"
+        padding-top="0px"
+        padding-left="0px"
+        padding-right="0px"
+        border-radius="0px"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="d83-09 r f mj-s"
+        text-align="center"
+        ><mj-column width="100%" padding="0px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" border-radius="0px" css-class="ebb-fd f mj-c nc" vertical-align="middle"
+          ><mj-image
+            width="142px"
+            height="54px"
+            padding="0px"
+            padding-top="0px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            border-radius="0px"
+            href=""
+            alt="image-here"
+            emailUTMParameter=""
+            src="#"
+            align="center"
+            css-class="ba4-ed mj-i lf"
+          ></mj-image></mj-column></mj-section
+    ></mj-wrapper>
+    <mj-wrapper
+      padding="0px"
+      padding-bottom="49px"
+      padding-top="49px"
+      padding-left="40px"
+      padding-right="40px"
+      border-radius="0px"
+      background-repeat="no-repeat"
+      background-position="center center"
+      background-size="cover"
+      background-color="#222222"
+      css-class="ba7-ec r mj-w"
+      ><mj-section
+        padding="0px"
+        padding-bottom="0px"
+        padding-top="0px"
+        padding-left="0px"
+        padding-right="0px"
+        border-radius="0px"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="c84-5d r f mj-s"
+        text-align="left"
+        ><mj-column width="100%" padding="0px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" border-radius="0px" css-class="bbd-1e f mj-c nc" vertical-align="top"
+          ><mj-image
+            width="57px"
+            height="48px"
+            padding="0px"
+            padding-top="0px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            border-radius="0px"
+            href=""
+            alt="image-here"
+            emailUTMParameter=""
+            src="#"
+            align="left"
+            css-class="eb4-d9 mj-i lf"
+          ></mj-image>
+          <mj-text
+            height="165px"
+            text-transform="none"
+            align="left"
+            padding="0px"
+            padding-top="106px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            letter-spacing="0px"
+            font-family="Inter, Inter"
+            font-style="normal"
+            font-size="50px"
+            font-weight="700"
+            line-height="55px"
+            color="#FFFFFF"
+            text-decoration="none"
+            css-class="da0-23 text mj-t"
+            ><span style="" class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></mj-text
+          >
+          <mj-button
+            padding="0px"
+            padding-top="42px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            align="left"
+            border-radius="100px"
+            border="0px"
+            font-family="Inter, Inter"
+            line-height="50px"
+            font-style="normal"
+            font-size="16px"
+            font-weight="700"
+            height="50px"
+            width="39.285714285714285%"
+            text-decoration="none"
+            href=""
+            text-transform="none"
+            text-align="center"
+            inner-padding="0px 42px 0px 42px"
+            color="#FFFFFF"
+            background-color="#EF3E5D"
+            css-class="db4-62 mj-b"
+            ><span class="text-btn-db4-62">ADD YOUR CTA</span></mj-button
+          ></mj-column
+        ></mj-section
+      ></mj-wrapper
+    >
+    <mj-wrapper
+      padding="0px"
+      padding-bottom="35px"
+      padding-top="35px"
+      padding-left="60px"
+      padding-right="60px"
+      border-radius="0px"
+      background-repeat="no-repeat"
+      background-position="center center"
+      background-size="cover"
+      background-color="#FFFFFF"
+      css-class="f8a-44 r mj-w"
+      ><mj-section
+        padding="0px"
+        padding-bottom="0px"
+        padding-top="0px"
+        padding-left="0px"
+        padding-right="0px"
+        border-radius="0px"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="fba-76 r f mj-s"
+        text-align="center"
+        ><mj-column width="100%" padding="0px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" border-radius="0px" css-class="ba7-4f f mj-c nc" vertical-align="middle"
+          ><mj-text
+            height="78px"
+            text-transform="none"
+            align="left"
+            padding="0px"
+            padding-top="0px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            letter-spacing="0px"
+            font-family="Inter, Inter"
+            font-style="normal"
+            font-size="16px"
+            font-weight="400"
+            line-height="26px"
+            color="#505457"
+            text-decoration="none"
+            css-class="c9f-3a text mj-t"
+            ><span style="" class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam commodo.</span></mj-text
+          ></mj-column
+        ></mj-section
+      ></mj-wrapper
+    >
+    <mj-wrapper
+      padding="0px"
+      padding-bottom="0px"
+      padding-top="0px"
+      padding-left="0px"
+      padding-right="0px"
+      border-radius="0px"
+      background-repeat="no-repeat"
+      background-position="center center"
+      background-size="cover"
+      background-color="#FFFFFF"
+      css-class="c87-8d r mj-w"
+      ><mj-section
+        padding="0px"
+        padding-bottom="0px"
+        padding-top="0px"
+        padding-left="0px"
+        padding-right="0px"
+        border-radius="0px"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="c8e-b6 r f mj-s"
+        text-align="center"
+        ><mj-column width="50%" padding="0px" padding-bottom="39px" padding-top="39px" padding-left="30px" padding-right="30px" border-radius="0px" css-class="cb2-b0 f mj-c nc" vertical-align="middle"
+          ><mj-text
+            height="32px"
+            text-transform="none"
+            align="left"
+            padding="0px"
+            padding-top="0px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            letter-spacing="0px"
+            font-family="Arial, Inter"
+            font-style="normal"
+            font-size="28px"
+            font-weight="700"
+            line-height="1.2"
+            color="#000000"
+            text-decoration="none"
+            css-class="f90-0e text mj-t"
+            ><span style="" class="text">H3 Headline </span></mj-text
+          ></mj-column
+        >
+        <mj-column width="50%" padding="0px" padding-bottom="18px" padding-top="18px" padding-left="30px" padding-right="30px" border-radius="0px" css-class="ea5-68 f mj-c nc" vertical-align="middle"
+          ><mj-text
+            height="208px"
+            text-transform="none"
+            align="left"
+            padding="0px"
+            padding-top="0px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            letter-spacing="0px"
+            font-family="Inter, Inter"
+            font-style="normal"
+            font-size="16px"
+            font-weight="400"
+            line-height="26px"
+            color="#505457"
+            text-decoration="none"
+            css-class="a94-7c text mj-t"
+            ><span style="" class="text"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua.</span
+            ></mj-text
+          ></mj-column
+        ></mj-section
+      ></mj-wrapper
+    >
+    <mj-wrapper
+      padding="0px"
+      padding-bottom="10px"
+      padding-top="10px"
+      padding-left="10px"
+      padding-right="10px"
+      border-radius="0px"
+      background-repeat="no-repeat"
+      background-position="center center"
+      background-size="cover"
+      background-color="#FFFFFF"
+      css-class="d95-a3 r mj-w"
+      ><mj-section
+        padding="0px"
+        padding-bottom="0px"
+        padding-top="0px"
+        padding-left="0px"
+        padding-right="0px"
+        border-radius="0px"
+        background-color="#FFFFFF"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="dbb-36 r f mj-s"
+        text-align="center"
+        ><mj-column width="50%" padding="0px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" border-radius="0px" background-color="#FFFFFF" css-class="fa0-7a f mj-c nc" vertical-align="top"
+          ><mj-image
+            width="290px"
+            height="374px"
+            padding="0px"
+            padding-top="10px"
+            padding-bottom="10px"
+            padding-left="10px"
+            padding-right="10px"
+            border-radius="0px"
+            href=""
+            alt="image-here"
+            emailUTMParameter=""
+            fluid-on-mobile="true"
+            src="#"
+            align="left"
+            css-class="d83-eb mj-i nf"
+          ></mj-image
+        ></mj-column>
+        <mj-column width="50%" padding="0px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" border-radius="0px" background-color="#FFFFFF" css-class="e8e-8d f mj-c nc" vertical-align="top"
+          ><mj-image
+            width="290px"
+            height="187px"
+            padding="0px"
+            padding-top="5px"
+            padding-bottom="5px"
+            padding-left="10px"
+            padding-right="10px"
+            border-radius="0px"
+            href=""
+            alt="image-here"
+            emailUTMParameter=""
+            fluid-on-mobile="true"
+            src="#"
+            align="left"
+            css-class="c88-03 mj-i nf"
+          ></mj-image>
+          <mj-image
+            width="290px"
+            height="187px"
+            padding="0px"
+            padding-top="5px"
+            padding-bottom="5px"
+            padding-left="10px"
+            padding-right="10px"
+            border-radius="0px"
+            href=""
+            alt="image-here"
+            emailUTMParameter=""
+            fluid-on-mobile="true"
+            src="#"
+            align="left"
+            css-class="d87-41 mj-i nf"
+          ></mj-image></mj-column></mj-section
+    ></mj-wrapper>
+    <mj-wrapper
+      padding="0px"
+      padding-bottom="30px"
+      padding-top="30px"
+      padding-left="32px"
+      padding-right="32px"
+      border-radius="0px"
+      background-repeat="no-repeat"
+      background-position="center center"
+      background-size="cover"
+      background-color="#FFFFFF"
+      css-class="aa0-a7 r mj-w"
+      ><mj-section
+        padding="0px"
+        padding-bottom="0px"
+        padding-top="0px"
+        padding-left="0px"
+        padding-right="0px"
+        border-radius="0px"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="aa3-2f r f mj-s"
+        text-align="center"
+        ><mj-column width="50%" padding="0px" padding-bottom="8px" padding-top="8px" padding-left="0px" padding-right="0px" border-radius="0px" css-class="aa8-f8 f mj-c nc" vertical-align="middle"
+          ><mj-text
+            height="23px"
+            text-transform="none"
+            align="left"
+            padding="0px"
+            padding-top="0px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            letter-spacing="0px"
+            font-family="Arial, Inter"
+            font-style="normal"
+            font-size="20px"
+            font-weight="700"
+            line-height="1.2"
+            color="#000000"
+            text-decoration="none"
+            css-class="eb1-68 text mj-t"
+            ><span style="" class="text">H5 Headline</span></mj-text
+          >
+          <mj-text
+            height="20px"
+            text-transform="none"
+            align="left"
+            padding="0px"
+            padding-top="8px"
+            padding-bottom="8px"
+            padding-left="0px"
+            padding-right="0px"
+            letter-spacing="0px"
+            font-family="Helvetica, Inter"
+            font-style="normal"
+            font-size="15px"
+            font-weight="400"
+            line-height="20px"
+            color="#505457"
+            text-decoration="none"
+            css-class="a83-c5 text mj-t"
+            ><span style="" class="text">Lorem ipsum dolor sit amet, consectetur</span></mj-text
+          ></mj-column
+        >
+        <mj-column width="50%" padding="0px" padding-bottom="8px" padding-top="8px" padding-left="0px" padding-right="0px" border-radius="0px" css-class="d9d-29 f mj-c nc" vertical-align="middle"
+          ><mj-button
+            padding="0px"
+            padding-top="0px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            align="right"
+            border-radius="100px"
+            border="0px"
+            font-family="Inter, Inter"
+            line-height="48px"
+            font-style="normal"
+            font-size="16px"
+            font-weight="700"
+            height="48px"
+            width="75%"
+            text-decoration="none"
+            href=""
+            text-transform="none"
+            text-align="center"
+            inner-padding="0px 40px 0px 40px"
+            color="#FFFFFF"
+            background-color="#EF3E5D"
+            css-class="c82-e0 mj-b"
+            ><span class="text-btn-c82-e0">ADD YOUR CTA</span></mj-button
+          ></mj-column
+        ></mj-section
+      ></mj-wrapper
+    >
+    <mj-wrapper
+      padding="0px"
+      padding-bottom="0px"
+      padding-top="0px"
+      padding-left="0px"
+      padding-right="0px"
+      border-radius="0px"
+      background-repeat="no-repeat"
+      background-position="center center"
+      background-size="cover"
+      css-class="f95-4c r mj-w"
+      ><mj-section
+        padding="0px"
+        padding-bottom="18px"
+        padding-top="40px"
+        padding-left="40px"
+        padding-right="40px"
+        border-radius="0px"
+        background-color="#222222"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="ca1-8f r f mj-s"
+        text-align="center"
+        ><mj-column width="100%" padding="0px" padding-bottom="8px" padding-top="8px" padding-left="0px" padding-right="0px" border-radius="0px" background-color="#222222" css-class="abb-15 f mj-c nc" vertical-align="middle"
+          ><mj-social css-class="ea6-06 mj-so" padding="0px" padding-top="0px" padding-bottom="0px" padding-left="0px" padding-right="0px" border-radius="0px" align="center" mode="horizontal" container-background-color="transparent"
+            ><mj-social-element
+              icon-size="42px"
+              icon-height="42px"
+              css-class="ab1-2f mj-se"
+              padding="0px"
+              padding-top="5px"
+              padding-bottom="5px"
+              padding-left="16px"
+              padding-right="16px"
+              border-radius="0px"
+              alt="image-here"
+              src="#"
+              href=""
+            ></mj-social-element>
+            <mj-social-element
+              icon-size="42px"
+              icon-height="42px"
+              css-class="fa7-76 mj-se"
+              padding="0px"
+              padding-top="5px"
+              padding-bottom="5px"
+              padding-left="16px"
+              padding-right="16px"
+              border-radius="0px"
+              alt="image-here"
+              src="#"
+              href=""
+            ></mj-social-element>
+            <mj-social-element
+              icon-size="42px"
+              icon-height="42px"
+              css-class="b8d-67 mj-se"
+              padding="0px"
+              padding-top="5px"
+              padding-bottom="5px"
+              padding-left="16px"
+              padding-right="16px"
+              border-radius="0px"
+              alt="image-here"
+              src="#"
+              href=""
+            ></mj-social-element>
+            <mj-social-element
+              icon-size="42px"
+              icon-height="42px"
+              css-class="fac-c4 mj-se"
+              padding="0px"
+              padding-top="5px"
+              padding-bottom="5px"
+              padding-left="16px"
+              padding-right="16px"
+              border-radius="0px"
+              alt="image-here"
+              src="#"
+              href=""
+            ></mj-social-element>
+            <mj-social-element
+              icon-size="42px"
+              icon-height="42px"
+              css-class="cb6-90 mj-se"
+              padding="0px"
+              padding-top="5px"
+              padding-bottom="5px"
+              padding-left="16px"
+              padding-right="16px"
+              border-radius="0px"
+              alt="image-here"
+              src="#"
+              href=""
+            ></mj-social-element></mj-social></mj-column
+      ></mj-section>
+      <mj-section
+        padding="0px"
+        padding-bottom="14px"
+        padding-top="14px"
+        padding-left="40px"
+        padding-right="40px"
+        border-radius="0px"
+        background-color="#222222"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="a96-7e r f mj-s"
+        text-align="center"
+        ><mj-group css-class="bbd-7d mj-g" vertical-align="middle" width="50%"
+          ><mj-column width="50%" padding="0px" padding-bottom="8px" padding-top="8px" padding-left="0px" padding-right="0px" border-radius="0px" background-color="#222222" css-class="bbd-ed f mj-c gc" vertical-align="top"
+            ><mj-text
+              height="14px"
+              text-transform="uppercase"
+              align="center"
+              padding="0px"
+              padding-top="0px"
+              padding-bottom="0px"
+              padding-left="0px"
+              padding-right="0px"
+              letter-spacing="0px"
+              font-family="Inter, Inter"
+              font-style="normal"
+              font-size="16px"
+              font-weight="400"
+              line-height="14px"
+              color="#FFFFFF"
+              text-decoration="none"
+              css-class="e86-14 text mj-t"
+              ><span style="" class="text">Inspiration</span></mj-text
+            ></mj-column
+          >
+          <mj-column width="50%" padding="0px" padding-bottom="8px" padding-top="8px" padding-left="0px" padding-right="0px" border-radius="0px" background-color="#222222" css-class="a91-6f f mj-c gc" vertical-align="top"
+            ><mj-text
+              height="14px"
+              text-transform="uppercase"
+              align="center"
+              padding="0px"
+              padding-top="0px"
+              padding-bottom="0px"
+              padding-left="20px"
+              padding-right="20px"
+              letter-spacing="0px"
+              font-family="Inter, Inter"
+              font-style="normal"
+              font-size="16px"
+              font-weight="400"
+              line-height="14px"
+              color="#FFFFFF"
+              text-decoration="none"
+              css-class="c8c-79 text mj-t"
+              ><span style="" class="text">Plugin</span></mj-text
+            ></mj-column
+          ></mj-group
+        >
+        <mj-group css-class="d80-dd mj-g" vertical-align="middle" width="50%"
+          ><mj-column width="50%" padding="0px" padding-bottom="8px" padding-top="8px" padding-left="0px" padding-right="0px" border-radius="0px" background-color="#222222" css-class="d8b-a5 f mj-c gc" vertical-align="top"
+            ><mj-text
+              height="14px"
+              text-transform="uppercase"
+              align="center"
+              padding="0px"
+              padding-top="0px"
+              padding-bottom="0px"
+              padding-left="0px"
+              padding-right="0px"
+              letter-spacing="0px"
+              font-family="Inter, Inter"
+              font-style="normal"
+              font-size="16px"
+              font-weight="400"
+              line-height="14px"
+              color="#FFFFFF"
+              text-decoration="none"
+              css-class="abb-85 text mj-t"
+              ><span style="" class="text">About</span></mj-text
+            ></mj-column
+          >
+          <mj-column width="50%" padding="0px" padding-bottom="8px" padding-top="8px" padding-left="0px" padding-right="0px" border-radius="0px" background-color="#222222" css-class="d94-15 f mj-c gc" vertical-align="top"
+            ><mj-text
+              height="14px"
+              text-transform="uppercase"
+              align="center"
+              padding="0px"
+              padding-top="0px"
+              padding-bottom="0px"
+              padding-left="0px"
+              padding-right="0px"
+              letter-spacing="0px"
+              font-family="Inter, Inter"
+              font-style="normal"
+              font-size="16px"
+              font-weight="400"
+              line-height="14px"
+              color="#FFFFFF"
+              text-decoration="none"
+              css-class="bbb-ec text mj-t"
+              ><span style="" class="text">Blog</span></mj-text
+            ></mj-column
+          ></mj-group
+        ></mj-section
+      >
+      <mj-section
+        padding="0px"
+        padding-bottom="0px"
+        padding-top="0px"
+        padding-left="0px"
+        padding-right="0px"
+        border-radius="0px"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="aab-e0 r f mj-s"
+        text-align="center"
+        ><mj-column width="100%" padding="0px" padding-bottom="20px" padding-top="20px" padding-left="0px" padding-right="0px" border-radius="0px" background-color="#222222" css-class="bb1-94 f mj-c nc" vertical-align="top"
+          ><mj-image
+            width="216px"
+            height="49px"
+            padding="0px"
+            padding-top="0px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            border-radius="0px"
+            href=""
+            alt="image-here"
+            emailUTMParameter=""
+            src="#"
+            align="center"
+            css-class="f8d-08 mj-i lf"
+          ></mj-image></mj-column
+      ></mj-section>
+      <mj-section
+        padding="0px"
+        padding-bottom="0px"
+        padding-top="0px"
+        padding-left="40px"
+        padding-right="40px"
+        border-radius="0px"
+        background-color="#222222"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="a85-63 r f mj-s"
+        text-align="center"
+        ><mj-column width="100%" padding="0px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" border-radius="0px" css-class="a96-05 f mj-c nc" vertical-align="top"
+          ><mj-image css-class="fbf-9e mj-i nf" width="560px" height="0.800000011920929px" padding="0px" alt="image-here" align="center" fluid-on-mobile="true" src="#"></mj-image></mj-column
+      ></mj-section>
+      <mj-section
+        padding="0px"
+        padding-bottom="0px"
+        padding-top="0px"
+        padding-left="0px"
+        padding-right="0px"
+        border-radius="0px"
+        background-color="#222222"
+        background-repeat="no-repeat"
+        background-position="center center"
+        background-size="cover"
+        css-class="fbf-a4 r f mj-s"
+        text-align="center"
+        ><mj-column width="100%" padding="0px" padding-bottom="40px" padding-top="40px" padding-left="40px" padding-right="40px" border-radius="0px" css-class="d94-e3 f mj-c nc" vertical-align="top"
+          ><mj-text
+            height="56px"
+            text-transform="none"
+            align="center"
+            padding="0px"
+            padding-top="0px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            letter-spacing="0px"
+            font-family="Inter, Inter"
+            font-style="normal"
+            font-size="11px"
+            font-weight="400"
+            line-height="14px"
+            color="#FFFFFF"
+            text-decoration="none"
+            css-class="b88-a0 text mj-t"
+            ><span style="" class="text"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span
+            ></mj-text
+          >
+          <mj-text
+            height="16px"
+            text-transform="none"
+            align="center"
+            padding="0px"
+            padding-top="30px"
+            padding-bottom="0px"
+            padding-left="0px"
+            padding-right="0px"
+            letter-spacing="0px"
+            font-family="Inter, Inter"
+            font-style="normal"
+            font-size="20px"
+            font-weight="400"
+            line-height="16px"
+            color="#FFFFFF"
+            text-decoration="underline"
+            css-class="d85-ae text mj-t"
+            ><span style="" class="text"><a class="link" style="color: #ffffff; text-decoration: underline" href="https://unsubscribe.com">Unsubscribe</a></span></mj-text
+          ></mj-column
+        ></mj-section
+      ></mj-wrapper
+    ></mj-body
+  ></mjml
+>
