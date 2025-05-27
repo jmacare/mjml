@@ -66,11 +66,19 @@
   <!--[if mso]>
     <style>
       .cta-button {
-        background: transparent !important;
+        background: none !important;
         border: none !important;
         padding: 0 !important;
         color: inherit !important;
         mso-color-alt: auto !important;
+      }
+
+      .cta-button-secondary {
+        border: none !important;
+        padding: 0 !important;
+        color: inherit !important;
+        background: transparent !important;
+        mso-color-alt: #555555 !important;
       }
     </style>
   <![endif]-->
@@ -213,6 +221,26 @@
       font-weight: 400;
     }
 
+    .webversion a {
+      color:#776e5d;
+      font-family:Arial;
+      font-size:12px;
+      font-weight:700;
+      line-height:16px;
+      text-align:right;
+      text-decoration:none
+    }
+
+    .footer-links a {
+      color:#1d1a14;
+      font-family:Arial;
+      font-size:16px;
+      font-weight:400;
+      line-height:24px;
+      text-align:left;
+      text-decoration:none;
+    }
+
     @media screen and (max-width:700px) {
       .inline-image {
         display: block !important;
@@ -310,7 +338,7 @@
                                         <tr>
                                           <td align="right" style="font-size:0;padding:0;word-break:break-word">
                                             <div
-                                              style="color:#776e5d;font-family:Arial;font-size:12px;font-weight:700;line-height:16px;text-align:right;text-decoration:none">
+                                              style="color:#776e5d;font-family:Arial;font-size:12px;font-weight:700;line-height:16px;text-align:right;text-decoration:none" class="webversion">
                                               <lp-singleline lp-label="Webversie"> <lp-webversion> Bekijk de
                                                   webversie</lp-webversion> </lp-singleline> </div>
                                           </td>
@@ -1117,11 +1145,11 @@
                                         <w:anchorlock/>
                                     <![endif]-->
                                     <a
-                                      class="cta-button"
+                                      class="cta-button-secondary"
                                       rel="noopener"
                                       target="_blank"
                                       href="http://laposta.nl"
-                                      style="background-color:#ffffff;border-radius:25px;border:1px solid #1d1a14;color:#1d1a14;display:inline-block;font-size: 16px; font-family: Arial, sans-serif;font-weight:bold;text-align:center;text-decoration:none;-webkit-text-size-adjust:none;padding: 16px 24px;"
+                                      style="background-color:#ffffff;border-radius:25px;border:1px solid #1d1a14;color:#1d1a14;display:inline-block;font-size: 16px; font-family: Arial, sans-serif;font-weight:bold;text-align:center;text-decoration:none;-webkit-text-size-adjust:none;padding: 16px 24px;mso-color-alt: #777777 !important;"
                                       >
                                       <lp-singleline lp-label="Button tekst">This is a button &rarr;</lp-singleline>
                                       </a>
@@ -1170,11 +1198,11 @@
                                         <center>
                                     <![endif]-->
                                     <a
-                                      class="cta-button"
+                                      class="cta-button-secondary"
                                       rel="noopener"
                                       target="_blank"
                                       href="http://laposta.nl"
-                                      style="background-color:#ffffff;border-radius:25px;border:1px solid #1d1a14;color:#1d1a14;display:inline-block;font-size: 16px; font-family: Arial, sans-serif;font-weight:bold;text-align:center;text-decoration:none;-webkit-text-size-adjust:none;padding: 16px 24px;"
+                                      style="background-color:#ffffff;border-radius:25px;border:1px solid #1d1a14;color:#1d1a14;display:inline-block;font-size: 16px; font-family: Arial, sans-serif;font-weight:bold;text-align:center;text-decoration:none;-webkit-text-size-adjust:none;padding: 16px 24px;mso-color-alt: #777777 !important;"
                                       >
                                       <lp-singleline lp-label="Button tekst">This is a button &rarr;</lp-singleline>
                                       </a>
@@ -2393,7 +2421,7 @@
                                     <tr>
                                       <td align="left" style="font-size:0;padding:0;word-break:break-word">
                                         <div
-                                          style="color:#1d1a14;font-family:Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
+                                          style="color:#1d1a14;font-family:Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none" class="footer-link">
                                           <lp-singleline lp-label="Gegevens wijzigen"> <lp-editprofile> Gegevens wijzigen</lp-editprofile>
                                           </lp-singleline> </div>
                                       </td>
@@ -2401,7 +2429,7 @@
                                     <tr>
                                       <td align="left" style="font-size:0;padding:0;word-break:break-word">
                                         <div
-                                          style="color:#1d1a14;font-family:Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
+                                          style="color:#1d1a14;font-family:Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none" class="footer-link">
                                           <lp-singleline lp-label="Aanmelden"> <lp-subscribe> Aanmelden</lp-subscribe> </lp-singleline>
                                         </div>
                                       </td>
@@ -2444,7 +2472,7 @@
                                     <tr>
                                       <td align="left" style="font-size:0;padding:0;word-break:break-word">
                                         <div
-                                          style="color:#1d1a14;font-family:Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
+                                          style="color:#1d1a14;font-family:Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none" class="footer-link">
                                           <lp-singleline lp-label="Bekijk de webversie"> <lp-webversion> Bekijk de webversie</lp-webversion>
                                           </lp-singleline> </div>
                                       </td>
@@ -2452,7 +2480,7 @@
                                     <tr>
                                       <td align="left" style="font-size:0;padding:0;word-break:break-word">
                                         <div
-                                          style="color:#1d1a14;font-family:Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
+                                          style="color:#1d1a14;font-family:Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none" class="footer-link">
                                           <lp-singleline lp-label="Afmelden"> <lp-unsubscribe> Afmelden nieuwsbrief</lp-unsubscribe>
                                           </lp-singleline> </div>
                                       </td>
