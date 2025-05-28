@@ -273,8 +273,16 @@
 
     @media (prefers-color-scheme: dark) {
       body{
-        background-color: #ffffff !important;
-      }        
+        background-color: transparent !important;
+      }   
+
+      .brand {
+          display: none !important;
+      }
+
+      .brand-dark {
+          display: table-cell !important;
+      }
     }
   </style>
 </head>
@@ -380,9 +388,13 @@
                                       style="border-collapse:collapse;border-spacing:0">
                                       <tbody>
                                         <tr>
-                                          <td style="width:134px"> <img alt src="images/Logo.png"
-                                              style="border:0;border-radius:8px;display:block;font-size:13px;height:auto;outline:none;text-decoration:none;width:100%"
-                                              width="134" height="auto" lp-logo> </td>
+                                          <td style="width:134px"> <img class="brand" alt="Logo" src="images/Logo.png"
+                                              style="border:0;display:block;font-size:0;height:auto;outline:none;text-decoration:none;width:100%;"
+                                              width="134" height="auto" lp-logo> 
+                                              <img class="brand-dark" alt="Logo" src="images/Logo_dark.png"
+                                              style="border:0;display:block;font-size:0;height:auto;outline:none;text-decoration:none;width:100%;display:none;mso-hide:all;"
+                                              width="134" height="auto" lp-logo> 
+                                          </td>
                                         </tr>
                                       </tbody>
                                     </table>
@@ -1219,7 +1231,7 @@
         </div> <!--[if mso | IE]></td></tr></table><![endif]-->
       </lp-layout>
       
-      <lp-layout lp-label="Tekstblok + afbeelding inline rechts">
+      <lp-layout lp-label="H2 + Tekstblok + afbeelding inline rechts">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -1279,7 +1291,7 @@
         </div> <!--[if mso | IE]></td></tr></table><![endif]-->
       </lp-layout>
       
-      <lp-layout lp-label="Tekstblok + afbeelding inline links">
+      <lp-layout lp-label="H2 + Tekstblok + afbeelding inline links">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -1339,7 +1351,7 @@
         </div> <!--[if mso | IE]></td></tr></table><![endif]-->
       </lp-layout>
       
-      <lp-layout lp-label="Tekstblok + afbeelding horizontaal">
+      <lp-layout lp-label="H3 + Tekstblok + afbeelding horizontaal">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -1441,7 +1453,7 @@
         </div> <!--[if mso | IE]></td></tr></table><![endif]-->
       </lp-layout>
 
-      <lp-layout lp-label="2 kolommen - Tekstblok">
+      <lp-layout lp-label="2 kolommen - H3 + Tekstblok">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -1549,7 +1561,7 @@
         </div> <!--[if mso | IE]></td></tr></table><![endif]-->
       </lp-layout>
       
-      <lp-layout lp-label="2 kolommen - Tekstblok + afbeelding">
+      <lp-layout lp-label="2 kolommen - H3 + Tekstblok + Afbeelding">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -2087,9 +2099,9 @@
                                   <td align="left" style="font-size:0;padding:0 0 4px;word-break:break-word">
                                     <div
                                       style="color:#1d1a14;font-family:Arial;font-size:24px;font-weight:700;line-height:28px;text-align:left;text-decoration:none">
-                                      <h4 style="font-family:Arial;font-size:24px;font-weight:700;line-height:28px">
+                                      <h3 style="font-family:Arial;font-size:24px;font-weight:700;line-height:28px">
                                         <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
-                                      </h4>
+                                      </h3>
                                     </div>
                                   </td>
                                 </tr>
@@ -2167,7 +2179,7 @@
         </div> <!--[if mso | IE]></td></tr></table><![endif]-->
       </lp-layout>
       
-      <lp-layout lp-label="Spacer - 16">
+      <lp-layout lp-label="Spacer - S">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -2203,7 +2215,7 @@
         </div> <!--[if mso | IE]></td></tr></table><![endif]-->
       </lp-layout>
       
-      <lp-layout lp-label="Spacer - 24">
+      <lp-layout lp-label="Spacer - M">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -2239,7 +2251,7 @@
         </div> <!--[if mso | IE]></td></tr></table><![endif]-->
       </lp-layout>
       
-      <lp-layout lp-label="Spacer - 48">
+      <lp-layout lp-label="Spacer - L">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -2275,7 +2287,7 @@
         </div> <!--[if mso | IE]></td></tr></table><![endif]-->
       </lp-layout>
 
-      <lp-layout lp-label="Spacer - Rounded top">
+      <lp-layout lp-label="Spacer - Afgeronde bovenhoeken">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;border-radius:8px 8px 0 0;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -2311,7 +2323,7 @@
         </div> <!--[if mso | IE]></td></tr></table><![endif]-->
       </lp-layout>
       
-      <lp-layout lp-label="Spacer - Rounded bottom">
+      <lp-layout lp-label="Spacer - Afgeronde onderhoeken">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;border-radius:0 0 8px 8px;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -2416,16 +2428,16 @@
                                       <td align="left" style="font-size:0;padding:0;word-break:break-word">
                                         <div
                                           style="color:#1d1a14;font-family:Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none" class="footer-link">
-                                          <lp-singleline lp-label="Gegevens wijzigen"> <lp-editprofile> Gegevens wijzigen</lp-editprofile>
-                                          </lp-singleline> </div>
+                                          <lp-singleline lp-label="Inloggen"><a href="https://login.laposta.nl/">Inloggen</a></lp-singleline>
+                                        </div>
                                       </td>
                                     </tr>
                                     <tr>
                                       <td align="left" style="font-size:0;padding:0;word-break:break-word">
                                         <div
                                           style="color:#1d1a14;font-family:Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none" class="footer-link">
-                                          <lp-singleline lp-label="Aanmelden"> <lp-subscribe> Aanmelden</lp-subscribe> </lp-singleline>
-                                        </div>
+                                          <lp-singleline lp-label="Gegevens wijzigen"> <lp-editprofile> Gegevens wijzigen</lp-editprofile>
+                                          </lp-singleline> </div>
                                       </td>
                                     </tr>
                                   </tbody>
