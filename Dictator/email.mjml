@@ -128,7 +128,7 @@
       <lp-layout>
     </mj-raw>
     <mj-wrapper full-width="full-width" background-url="images/hero-bg_light.png" background-size="auto 100%">
-      <mj-section full-width="full-width" background-color="#234793" padding="48px 24px 48px 24px">
+      <mj-section full-width="full-width" padding="48px 24px 48px 24px">
         <mj-column vertical-align="top">
           <mj-text padding="0px 0px 8px 0px" color="#FB6B37" font-size="28px" font-family="Mulish,Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
             <lp-singleline lp-label="Intro titel"> [introtitel] Lorem ipsum</lp-singleline>
