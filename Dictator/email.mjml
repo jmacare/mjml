@@ -1,5 +1,7 @@
 <mjml>
   <mj-head>
+    <mj-font name="Mulish" href="https://fonts.googleapis.com/css?family=Mulish:300,400,600,700,900" />
+    <mj-font name="Indie Flower" href="https://fonts.googleapis.com/css?family=Indie+Flower" />
     <mj-html-attributes>
       <mj-selector path=".lp-logo img">
         <mj-html-attribute name="lp-logo"></mj-html-attribute>
@@ -15,7 +17,66 @@
       <mj-all padding="0" />
     </mj-attributes>
     <mj-style inline="inline"> h1 { font-family: Mulish; font-size: 40px; font-weight: 900; line-height: 48px; text-transform: uppercase; } h2 { font-family: Mulish; font-size: 32px; font-weight: 900; line-height: 38px; text-transform: uppercase; } h3 { font-family: Mulish; font-size: 28px; font-weight: 900; line-height: 34px; text-transform: uppercase; } h4 { font-family: Mulish; font-size: 24px; font-weight: 900; line-height: 28px; text-transform: uppercase; } h5 { font-family: Mulish; font-size: 20px; font-weight: 900; line-height: 24px; text-transform: uppercase; } h6 { font-family: Mulish; font-size: 16px; font-weight: 900; line-height: 24px; text-transform: uppercase; } </mj-style>
-    <mj-style> H1, H2, H3, H4, H5, H6 { margin: 0 !important; padding: 0 !important; } a:link, a:-webkit-any-link { color: inherit; } @media screen and (max-width:700px) { .inline-image { display: block !important; float: none !important; max-width: 100% !important; } table[class="lp-image-wrapper"] { width:100% !important; } td[class="lp-image-wrapper-h"] { display: none !important; } td[class="lp-image-wrapper-img"] { display: block !important; width: 100% !important; overflow: auto !important; } img[class="lp-multiline-image"] { width: 100% !important; height: auto !important; margin: 0 !important; } } </mj-style>
+    <mj-style> 
+    a:-webkit-any-link,
+    a:link {
+      color: inherit
+    }
+
+    a {
+      color: #e84e0f !important;
+    }
+
+    a[x-apple-data-detectors] {
+      color: #e84e0f !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+    u + #body a {
+      color: #e84e0f !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+    #MessageViewBody a {
+      color: #e84e0f !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    .cta-button td a {
+      color: #ffffff !important;
+    }
+
+    .cta-button td a[x-apple-data-detectors] {
+      color: #ffffff !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+    u + #body .cta-button td a {
+      color: #ffffff !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+    #MessageViewBody .cta-button td a {
+      color: #ffffff !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+      H1, H2, H3, H4, H5, H6 { margin: 0 !important; padding: 0 !important; } a:link, a:-webkit-any-link { color: inherit; } @media screen and (max-width:700px) { .inline-image { display: block !important; float: none !important; max-width: 100% !important; } table[class="lp-image-wrapper"] { width:100% !important; } td[class="lp-image-wrapper-h"] { display: none !important; } td[class="lp-image-wrapper-img"] { display: block !important; width: 100% !important; overflow: auto !important; } img[class="lp-multiline-image"] { width: 100% !important; height: auto !important; margin: 0 !important; } } 
+    </mj-style>
     <mj-breakpoint width="700px" />
   </mj-head>
   <mj-body background-color="#f5f5fb" width="700px">
@@ -25,12 +86,12 @@
     <mj-section full-width="full-width" background-color="#f5f5fb" padding="0px 24px 0px 24px">
       <mj-group>
         <mj-column padding="16px 0px 16px 0px" vertical-align="top">
-          <mj-text color="#333f50" font-size="12px" font-family="Mulish" font-weight="400" line-height="16px" align="left" text-decoration="none">
+          <mj-text color="#333f50" font-size="12px" font-family="Mulish,Arial" font-weight="400" line-height="16px" align="left" text-decoration="none">
             <lp-singleline lp-label="Korte beschrijving"> Een korte beschrijving van de nieuwsbrief</lp-singleline>
           </mj-text>
         </mj-column>
         <mj-column padding="16px 0px 16px 0px" vertical-align="top">
-          <mj-text color="#333f50" font-size="12px" font-family="Mulish" font-weight="700" line-height="16px" align="right" text-decoration="none">
+          <mj-text color="#333f50" font-size="12px" font-family="Mulish,Arial" font-weight="700" line-height="16px" align="right" text-decoration="none">
             <lp-singleline lp-label="Webversie">
               <lp-webversion> Bekijk de webversie</lp-webversion>
             </lp-singleline>
@@ -47,14 +108,14 @@
     <mj-section full-width="full-width" background-color="#ffffff" padding="0px 24px 0px 24px">
       <mj-group>
         <mj-column padding="24px 0px 24px 0px" vertical-align="middle">
-          <mj-image src="./I4003_2126_4002_960.png" alt="" css-class="lp-logo" align="left" width="200px">
+          <mj-image src="images/I4003_2126_4002_960.png" alt="" css-class="lp-logo" align="left" width="200px">
           </mj-image>
         </mj-column>
         <mj-column padding="24px 0px 24px 0px" vertical-align="middle">
-          <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="700" line-height="24px" align="right" text-decoration="none">
+          <mj-text color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="24px" align="right" text-decoration="none">
             <lp-singleline lp-label="Nieuwsbrief titel"> Titel nieuwsbrief</lp-singleline>
           </mj-text>
-          <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="right" text-decoration="none">
+          <mj-text color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="right" text-decoration="none">
             <lp-singleline lp-label="Maand of datum"> Maand of datum</lp-singleline>
           </mj-text>
         </mj-column>
@@ -66,13 +127,13 @@
     <mj-raw>
       <lp-layout>
     </mj-raw>
-    <mj-section>
+    <mj-wrapper full-width="full-width" background-url="images/hero-bg_light.png" background-size="auto 100%">
       <mj-section full-width="full-width" background-color="#234793" padding="48px 24px 48px 24px">
         <mj-column vertical-align="top">
-          <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
+          <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="'Mulish',Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
             <lp-singleline lp-label="Intro titel"> [introtitel] Lorem ipsum</lp-singleline>
           </mj-text>
-          <mj-text color="#ffffff" font-size="16px" font-family="Mulish" font-weight="700" line-height="28px" align="left" text-decoration="none">
+          <mj-text color="#ffffff" font-size="16px" font-family="'Mulish',Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
             <lp-multiline> [INTROTEXT] DICTATOR richt zich op het ontwikkelen van betrouwbare oplossingen voor deursluit-, opvang-, aandrijf- en gasveertechniek. Met vijf productievestigingen in Europa en een wereldwijd netwerk van distributiepunten is onze productie hoofdzakelijk Europees.</lp-multiline>
           </mj-text>
         </mj-column>
@@ -82,14 +143,14 @@
       </mj-raw>
       <mj-section background-color="#f5f5fb">
         <mj-column vertical-align="top">
-          <mj-image src="./I4003_2153_122_2405_79_239_30_297.png" alt="" css-class="Hero image" fluid-on-mobile="true" align="left" width="700px">
+          <mj-image src="images/I4003_2153_122_2405_79_239_30_297.png" alt="" css-class="Hero image" fluid-on-mobile="true" align="left" width="700px">
           </mj-image>
         </mj-column>
       </mj-section>
       <mj-raw>
         </lp-layout>
       </mj-raw>
-    </mj-section>
+    </mj-wrapper>
     <mj-raw>
       </lp-layout>
     </mj-raw>
@@ -98,19 +159,19 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 0px 24px">
       <mj-column vertical-align="top">
-        <mj-text padding="0px 0px 16px 0px" color="#e84e0f" font-size="28px" font-family="Mulish" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text padding="0px 0px 16px 0px" color="#e84e0f" font-size="28px" font-family="Mulish,Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
           <H3>
             <lp-singleline lp-label="Inhoudsopgave"> Inhoudsopgave</lp-singleline>
           </H3>
         </mj-text>
-        <mj-text padding="0px 0px 4px 0px" color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-singleline><img class="inline-image" src="./I136_842_65_138_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Lorem ipsum dolor sit amet.</lp-singleline>
+        <mj-text padding="0px 0px 4px 0px" color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+          <lp-singleline><img class="inline-image" src="images/I136_842_65_138_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Lorem ipsum dolor sit amet.</lp-singleline>
         </mj-text>
-        <mj-text padding="0px 0px 4px 0px" color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-singleline><img class="inline-image" src="./I136_842_115_903_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Consectetur adipiscing elit, sed do.</lp-singleline>
+        <mj-text padding="0px 0px 4px 0px" color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+          <lp-singleline><img class="inline-image" src="images/I136_842_115_903_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Consectetur adipiscing elit, sed do.</lp-singleline>
         </mj-text>
-        <mj-text padding="0px 0px 4px 0px" color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-singleline><img class="inline-image" src="./I136_842_65_139_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Ut enim ad minim veniam.</lp-singleline>
+        <mj-text padding="0px 0px 4px 0px" color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+          <lp-singleline><img class="inline-image" src="images/I136_842_65_139_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Ut enim ad minim veniam.</lp-singleline>
         </mj-text>
         <mj-spacer height="24px">
         </mj-spacer>
@@ -133,7 +194,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
       <mj-column vertical-align="middle">
-        <mj-text color="#e84e0f" font-size="40px" font-family="Mulish" font-weight="900" line-height="48px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text color="#e84e0f" font-size="40px" font-family="Mulish,Arial" font-weight="900" line-height="48px" text-transform="uppercase" align="left" text-decoration="none">
           <H1>
             <lp-singleline> H1 titel</lp-singleline>
           </H1>
@@ -148,7 +209,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
       <mj-column vertical-align="middle">
-        <mj-text color="#e84e0f" font-size="32px" font-family="Mulish" font-weight="900" line-height="38px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text color="#e84e0f" font-size="32px" font-family="Mulish,Arial" font-weight="900" line-height="38px" text-transform="uppercase" align="left" text-decoration="none">
           <H2>
             <lp-singleline> H2 titel</lp-singleline>
           </H2>
@@ -163,15 +224,15 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column vertical-align="middle">
-        <mj-text padding="0px 0px 16px 0px" color="#e84e0f" font-size="32px" font-family="Mulish" font-weight="900" line-height="38px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text padding="0px 0px 16px 0px" color="#e84e0f" font-size="32px" font-family="Mulish,Arial" font-weight="900" line-height="38px" text-transform="uppercase" align="left" text-decoration="none">
           <H2>
             <lp-singleline lp-label="Titel"> Titel</lp-singleline>
           </H2>
         </mj-text>
-        <mj-text padding="0px 0px 16px 0px" color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text padding="0px 0px 16px 0px" color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
-        <mj-button background-color="#e84e0f" inner-padding="16px 24px 16px 24px" color="#ffffff" font-size="16px" font-family="Mulish" font-weight="700" line-height="20px" text-transform="uppercase" align="left" text-decoration="none" href="https://www.dictator.nl/">
+        <mj-button css-class="cta-button" border-radius="0" background-color="#e84e0f" inner-padding="16px 24px 16px 24px" color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="20px" text-transform="uppercase" align="left" text-decoration="none" href="https://www.dictator.nl/">
           <lp-singleline lp-label="Button">Lorem ipsum</lp-singleline>
         </mj-button>
       </mj-column>
@@ -184,17 +245,17 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column vertical-align="middle">
-        <mj-text padding="0px 0px 24px 0px" color="#e84e0f" font-size="32px" font-family="Mulish" font-weight="900" line-height="38px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text padding="0px 0px 24px 0px" color="#e84e0f" font-size="32px" font-family="Mulish,Arial" font-weight="900" line-height="38px" text-transform="uppercase" align="left" text-decoration="none">
           <H2>
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
           </H2>
         </mj-text>
-        <mj-image src="./I114_344_114_340_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="652px">
+        <mj-image src="images/I114_344_114_340_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="652px">
         </mj-image>
-        <mj-text padding="24px 0px 24px 0px" color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text padding="24px 0px 24px 0px" color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
-        <mj-button background-color="#e84e0f" inner-padding="16px 24px 16px 24px" color="#ffffff" font-size="16px" font-family="Mulish" font-weight="700" line-height="20px" text-transform="uppercase" align="left" text-decoration="none" href="https://google.com">
+        <mj-button css-class="cta-button" border-radius="0" background-color="#e84e0f" inner-padding="16px 24px 16px 24px" color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="20px" text-transform="uppercase" align="left" text-decoration="none" href="https://google.com">
           <lp-singleline lp-label="Button">Lorem ipsum</lp-singleline>
         </mj-button>
       </mj-column>
@@ -207,13 +268,13 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column vertical-align="middle">
-        <mj-text padding="0px 0px 24px 0px" color="#e84e0f" font-size="32px" font-family="Mulish" font-weight="900" line-height="38px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text padding="0px 0px 24px 0px" color="#e84e0f" font-size="32px" font-family="Mulish,Arial" font-weight="900" line-height="38px" text-transform="uppercase" align="left" text-decoration="none">
           <H2>
             <lp-singleline lp-label="Titel"> Tekstblok met inline afbeelding rechts</lp-singleline>
           </H2>
         </mj-text>
-        <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"><img class="inline-image" src="./I117_1052_115_1035_37_172_37_110.png" width="322" height="110" align="right" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
+        <mj-text color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+          <lp-multiline lp-label="Tekstblok"><img class="inline-image" src="images/I117_1052_115_1035_37_172_37_110.png" width="322" height="110" align="right" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -225,13 +286,13 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column vertical-align="middle">
-        <mj-text padding="0px 0px 24px 0px" color="#e84e0f" font-size="32px" font-family="Mulish" font-weight="900" line-height="38px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text padding="0px 0px 24px 0px" color="#e84e0f" font-size="32px" font-family="Mulish,Arial" font-weight="900" line-height="38px" text-transform="uppercase" align="left" text-decoration="none">
           <H2>
             <lp-singleline lp-label="Titel"> Tekstblok met inline afbeelding links</lp-singleline>
           </H2>
         </mj-text>
-        <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"><img class="inline-image" src="./I117_1136_117_1080_37_116_37_110.png" width="322" height="110" align="left" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
+        <mj-text color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+          <lp-multiline lp-label="Tekstblok"><img class="inline-image" src="images/I117_1136_117_1080_37_116_37_110.png" width="322" height="110" align="left" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -243,7 +304,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column width="200px" vertical-align="top">
-        <mj-image src="./I119_1508_119_1479_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="200px">
+        <mj-image src="images/I119_1508_119_1479_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="200px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -251,12 +312,12 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="436px" vertical-align="top">
-        <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish,Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
           <H3>
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
           </H3>
         </mj-text>
-        <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
       </mj-column>
@@ -269,7 +330,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
       <mj-column vertical-align="top">
-        <mj-image src="./I120_1643_41_255_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="652px">
+        <mj-image src="images/I120_1643_41_255_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="652px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -281,7 +342,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 16px 16px 16px">
       <mj-column vertical-align="middle">
-        <mj-button background-color="#e84e0f" inner-padding="16px 24px 16px 24px" color="#ffffff" font-size="16px" font-family="Mulish" font-weight="700" line-height="20px" text-transform="uppercase" align="center" text-decoration="none" href="https://google.com">
+        <mj-button css-class="cta-button" border-radius="0" background-color="#e84e0f" inner-padding="16px 24px 16px 24px" color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="20px" text-transform="uppercase" align="center" text-decoration="none" href="https://google.com">
           <lp-singleline lp-label="Button">Lorem ipsum</lp-singleline>
         </mj-button>
       </mj-column>
@@ -294,7 +355,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 16px 16px 16px">
       <mj-column vertical-align="middle">
-        <mj-button background-color="#234793" inner-padding="16px 24px 16px 24px" color="#ffffff" font-size="16px" font-family="Mulish" font-weight="700" line-height="20px" text-transform="uppercase" align="center" text-decoration="none" href="https://google.com">
+        <mj-button css-class="cta-button" border-radius="0" background-color="#234793" inner-padding="16px 24px 16px 24px" color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="20px" text-transform="uppercase" align="center" text-decoration="none" href="https://google.com">
           <lp-singleline lp-label="Button">Lorem ipsum</lp-singleline>
         </mj-button>
       </mj-column>
@@ -307,12 +368,12 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column width="318px" vertical-align="top">
-        <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish,Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
           <H3>
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
           </H3>
         </mj-text>
-        <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
       </mj-column>
@@ -321,12 +382,12 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="318px" vertical-align="top">
-        <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish,Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
           <H3>
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
           </H3>
         </mj-text>
-        <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
       </mj-column>
@@ -339,14 +400,14 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I117_1372_117_1334_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
+        <mj-image src="images/I117_1372_117_1334_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
         </mj-image>
-        <mj-text padding="16px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text padding="16px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish,Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
           <H3>
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
           </H3>
         </mj-text>
-        <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
       </mj-column>
@@ -355,14 +416,14 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I117_1372_117_1358_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
+        <mj-image src="images/I117_1372_117_1358_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
         </mj-image>
-        <mj-text padding="16px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text padding="16px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish,Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
           <H3>
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
           </H3>
         </mj-text>
-        <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
       </mj-column>
@@ -375,7 +436,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I120_1655_119_1595_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="318px">
+        <mj-image src="images/I120_1655_119_1595_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="318px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -383,7 +444,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I120_1655_119_1599_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="318px">
+        <mj-image src="images/I120_1655_119_1599_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="318px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -395,7 +456,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
       <mj-column width="206.6666717529297px" vertical-align="top">
-        <mj-image src="./I120_1649_119_1624_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.6666717529297px">
+        <mj-image src="images/I120_1649_119_1624_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.6666717529297px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -403,7 +464,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="206.66665649414062px" vertical-align="top">
-        <mj-image src="./I120_1649_119_1628_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.66665649414062px">
+        <mj-image src="images/I120_1649_119_1628_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.66665649414062px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -411,7 +472,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="206.66665649414062px" vertical-align="top">
-        <mj-image src="./I120_1649_119_1637_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.66665649414062px">
+        <mj-image src="images/I120_1649_119_1637_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.66665649414062px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -423,15 +484,15 @@
     </mj-raw>
     <mj-section background-color="#f5f5fb" padding="48px 48px 48px 48px">
       <mj-column padding="24px 0px 24px 0px" vertical-align="middle">
-        <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="32px" font-family="Mulish" font-weight="900" line-height="38px" text-transform="uppercase" align="center" text-decoration="none">
+        <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="32px" font-family="Mulish,Arial" font-weight="900" line-height="38px" text-transform="uppercase" align="center" text-decoration="none">
           <H2>
             <lp-singleline lp-label="Titel"> Call to action blok</lp-singleline>
           </H2>
         </mj-text>
-        <mj-text padding="0px 0px 16px 0px" color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="center" text-decoration="none">
+        <mj-text padding="0px 0px 16px 0px" color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="center" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat.</lp-multiline>
         </mj-text>
-        <mj-button background-color="#e84e0f" inner-padding="16px 24px 16px 24px" color="#ffffff" font-size="16px" font-family="Mulish" font-weight="700" line-height="20px" text-transform="uppercase" align="center" text-decoration="none" href="https://google.com">
+        <mj-button css-class="cta-button" border-radius="0" background-color="#e84e0f" inner-padding="16px 24px 16px 24px" color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="20px" text-transform="uppercase" align="center" text-decoration="none" href="https://google.com">
           <lp-singleline lp-label="Button">Klik hier</lp-singleline>
         </mj-button>
       </mj-column>
@@ -444,10 +505,10 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column background-color="#234793" padding="16px 24px 16px 24px" width="106px" vertical-align="top">
-        <mj-text color="#ffffff" font-size="48px" font-family="Mulish" font-weight="300" line-height="48px" align="center" text-decoration="none">
+        <mj-text color="#ffffff" font-size="48px" font-family="Mulish,Arial" font-weight="300" line-height="48px" align="center" text-decoration="none">
           <lp-singleline lp-label="Dag"> 12</lp-singleline>
         </mj-text>
-        <mj-text color="#ffffff" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="center" text-decoration="none">
+        <mj-text color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="center" text-decoration="none">
           <lp-singleline lp-label="Maand"> MAA</lp-singleline>
         </mj-text>
       </mj-column>
@@ -456,15 +517,15 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="530px" vertical-align="top">
-        <mj-text padding="0px 0px 4px 0px" color="#e84e0f" font-size="20px" font-family="Mulish" font-weight="900" line-height="24px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text padding="0px 0px 4px 0px" color="#e84e0f" font-size="20px" font-family="Mulish,Arial" font-weight="900" line-height="24px" text-transform="uppercase" align="left" text-decoration="none">
           <H5>
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
           </H5>
         </mj-text>
-        <mj-text padding="0px 0px 8px 0px" color="#adb5bd" font-size="14px" font-family="Mulish" font-weight="400" line-height="16px" align="left" text-decoration="none">
+        <mj-text padding="0px 0px 8px 0px" color="#adb5bd" font-size="14px" font-family="Mulish,Arial" font-weight="400" line-height="16px" align="left" text-decoration="none">
           <lp-singleline lp-label="Subtitel"> Locatie - Datum - Lorem ipsum</lp-singleline>
         </mj-text>
-        <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text color="#333f50" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</lp-multiline>
         </mj-text>
       </mj-column>
@@ -475,7 +536,7 @@
     <mj-raw>
       <lp-layout lp-label="Quote - Wit">
     </mj-raw>
-    <mj-section>
+    <mj-wrapper>
       <mj-section background-color="#ffffff" padding="8px 24px 8px 24px">
         <mj-column vertical-align="top">
           <mj-image width="70px">
@@ -491,7 +552,7 @@
       </mj-section>
       <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
         <mj-column width="60px" vertical-align="middle">
-          <mj-image src="./I4003_2186_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
+          <mj-image src="images/I4003_2186_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
           </mj-image>
         </mj-column>
         <mj-column width="16px" vertical-align="middle">
@@ -499,22 +560,22 @@
           </mj-spacer>
         </mj-column>
         <mj-column width="576px" vertical-align="middle">
-          <mj-text color="#e84e0f" font-size="16px" font-family="Mulish" font-weight="700" line-height="24px" align="left" text-decoration="none">
+          <mj-text color="#e84e0f" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="24px" align="left" text-decoration="none">
             <lp-singleline lp-label="Titel"> Jane Doe</lp-singleline>
           </mj-text>
-          <mj-text color="#adb5bd" font-size="14px" font-family="Mulish" font-weight="400" line-height="16px" align="left" text-decoration="none">
+          <mj-text color="#adb5bd" font-size="14px" font-family="Mulish,Arial" font-weight="400" line-height="16px" align="left" text-decoration="none">
             <lp-multiline lp-label="Titel"> Functie, Bedrijf</lp-multiline>
           </mj-text>
         </mj-column>
       </mj-section>
-    </mj-section>
+    </mj-wrapper>
     <mj-raw>
       </lp-layout>
     </mj-raw>
     <mj-raw>
       <lp-layout lp-label="Quote - Oranje">
     </mj-raw>
-    <mj-section>
+    <mj-wrapper>
       <mj-section background-color="#e84e0f" padding="8px 24px 8px 24px">
         <mj-column vertical-align="top">
           <mj-image width="70px">
@@ -530,7 +591,7 @@
       </mj-section>
       <mj-section background-color="#e84e0f" padding="24px 24px 24px 24px">
         <mj-column width="60px" vertical-align="middle">
-          <mj-image src="./I4003_2187_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
+          <mj-image src="images/I4003_2187_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
           </mj-image>
         </mj-column>
         <mj-column width="16px" vertical-align="middle">
@@ -538,22 +599,22 @@
           </mj-spacer>
         </mj-column>
         <mj-column width="576px" vertical-align="middle">
-          <mj-text color="#ffffff" font-size="16px" font-family="Mulish" font-weight="700" line-height="24px" align="left" text-decoration="none">
+          <mj-text color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="24px" align="left" text-decoration="none">
             <lp-singleline lp-label="Titel"> Jane Doe</lp-singleline>
           </mj-text>
-          <mj-text color="#f6a98a" font-size="14px" font-family="Mulish" font-weight="400" line-height="16px" align="left" text-decoration="none">
+          <mj-text color="#f6a98a" font-size="14px" font-family="Mulish,Arial" font-weight="400" line-height="16px" align="left" text-decoration="none">
             <lp-multiline lp-label="Titel"> Functie, Bedrijf</lp-multiline>
           </mj-text>
         </mj-column>
       </mj-section>
-    </mj-section>
+    </mj-wrapper>
     <mj-raw>
       </lp-layout>
     </mj-raw>
     <mj-raw>
       <lp-layout lp-label="Quote - Blauw">
     </mj-raw>
-    <mj-section>
+    <mj-wrapper>
       <mj-section background-color="#234793" padding="8px 24px 8px 24px">
         <mj-column vertical-align="top">
           <mj-image width="70px">
@@ -569,7 +630,7 @@
       </mj-section>
       <mj-section background-color="#234793" padding="24px 24px 24px 24px">
         <mj-column width="60px" vertical-align="middle">
-          <mj-image src="./I4003_2188_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
+          <mj-image src="images/I4003_2188_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
           </mj-image>
         </mj-column>
         <mj-column width="16px" vertical-align="middle">
@@ -577,14 +638,14 @@
           </mj-spacer>
         </mj-column>
         <mj-column width="576px" vertical-align="middle">
-          <mj-text color="#ffffff" font-size="16px" font-family="Mulish" font-weight="700" line-height="24px" align="left" text-decoration="none">
+          <mj-text color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="24px" align="left" text-decoration="none">
             <lp-singleline lp-label="Titel"> Jane Doe</lp-singleline>
           </mj-text>
-          <mj-text color="#89a3da" font-size="14px" font-family="Mulish" font-weight="400" line-height="16px" align="left" text-decoration="none">
+          <mj-text color="#89a3da" font-size="14px" font-family="Mulish,Arial" font-weight="400" line-height="16px" align="left" text-decoration="none">
             <lp-multiline lp-label="Titel"> Functie, Bedrijf</lp-multiline>
           </mj-text>
         </mj-column>
-      </mj-section>
+    </mj-wrapper>
     </mj-section>
     <mj-raw>
       </lp-layout>
@@ -643,18 +704,47 @@
     <mj-wrapper full-width="full-width" background-color="#234793">
       <mj-section full-width="full-width" background-color="#234793" padding="24px 24px 8px 24px">
         <mj-column vertical-align="top">
-          <mj-text color="#e84e0f" font-size="20px" font-family="Mulish" font-weight="900" line-height="24px" text-transform="uppercase" align="left" text-decoration="none">
+          <mj-text color="#e84e0f" font-size="20px" font-family="Mulish,Arial" font-weight="900" line-height="24px" text-transform="uppercase" align="left" text-decoration="none">
             <lp-singleline> CONTACTGEGEVENS</lp-singleline>
           </mj-text>
         </mj-column>
       </mj-section>
       <mj-section full-width="full-width" background-color="#234793" padding="0px 24px 0px 24px">
-        <mj-column width="326px" vertical-align="bottom">
-          <mj-text color="#ffffff" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
-            <lp-multiline> Florijn 13, 8305 BR Emmeloord +31 (0)527 61 34 56 | info@dictator.nl</lp-multiline>
+        <mj-column width="318px" vertical-align="bottom">
+          <mj-text color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+            <lp-multiline> Florijn 13, 8305 BR Emmeloord<br/>+31 (0)527 61 34 56 | info@dictator.nl</lp-multiline>
           </mj-text>
         </mj-column>
-        <mj-column width="326px" vertical-align="bottom">
+        <mj-column width="16px" vertical-align="bottom">
+          <mj-spacer height="16px">
+          </mj-spacer>
+        </mj-column>
+        <mj-column width="318px" vertical-align="bottom">
+          <mj-table align="right" role="presentation" width="136px">
+            <tr>
+              <td align="right" width="28" style="width: 28px; max-width: 28px;">
+                <a href="#"><img src="images/I2001_1532_4014_2404_30_297.png" lp-edit alt="" align="right" width="28px"/></a>
+              </td>
+              <td align="right" width="8" style="width: 8px; max-width: 8px;">
+                &nbsp;
+              </td>
+              <td align="right" width="28" style="width: 28px; max-width: 28px;">
+                <a href="#"><img src="images/I2001_1532_4014_2437_30_297.png" lp-edit alt="" align="right" width="28px"/></a>
+              </td>
+              <td align="right" width="8" style="width: 8px; max-width: 8px;">
+                &nbsp;
+              </td>
+              <td align="right" width="28" style="width: 28px; max-width: 28px;">
+                <a href="#"><img src="images/I2001_1532_4014_2477_30_297.png" lp-edit alt="" align="right" width="28px"/></a>
+              </td>
+              <td align="right" width="8" style="width: 8px; max-width: 8px;">
+                &nbsp;
+              </td>
+              <td align="right" width="28" style="width: 28px; max-width: 28px;">
+                <a href="#"><img src="images/I2001_1532_4014_2523_30_297.png" lp-edit alt="" align="right" width="28px"/></a>
+              </td>
+            </tr>
+          </mj-table>
         </mj-column>
       </mj-section>
       <mj-section full-width="full-width" background-color="#234793" padding="24px 24px 0px 24px">
@@ -665,22 +755,30 @@
       </mj-section>
       <mj-section full-width="full-width" background-color="#234793" padding="0px 24px 24px 24px">
         <mj-column vertical-align="top">
-          <mj-text color="#ffffff" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">  
-            <lp-multiline>
+          <mj-text color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+            <lp-multiline> 
               Bezoek onze website voor meer informatie
               <br/>
-              <a href="https://www.dictator.nl" style="color:#e84e0f;font-weight:700;text-decoration:none;">www.dictator.nl</a>
+              <a href="https://www.dictator.nl">www.dictator.nl</a>
             </lp-multiline>
           </mj-text>
         </mj-column>
       </mj-section>
       <mj-section full-width="full-width" background-color="#234793" padding="16px 24px 16px 24px">
         <mj-column vertical-align="top">
-          <mj-text color="#afbdda" font-size="12px" font-family="Mulish" font-weight="400" line-height="16px" align="center" text-decoration="none">
-            <lp-singleline> Deze e-mail is verstuurd aan {{email}}. Als je geen e-mails meer wilt ontvangen dan kun je je hier afmelden. Je kunt ook je gegevens inzien en wijzigen. Voeg {{from_email}} toe aan je adresboek voor een betere ontvangst.</lp-singleline>
+          <mj-text color="#afbdda" font-size="12px" font-family="Mulish,Arial" font-weight="400" line-height="16px" align="center" text-decoration="none">
+            <lp-singleline>
+              Deze e-mail is verstuurd aan {{email}}.
+              <br/>
+              Als je geen e-mails meer wilt ontvangen dan kun je je hier afmelden. 
+              <br/>
+              Je kunt ook je gegevens inzien en wijzigen. 
+              <br/>
+              Voeg {{from_email}} toe aan je adresboek voor een betere ontvangst.
+            </lp-singleline>
           </mj-text>
         </mj-column>
       </mj-section>
-    </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>

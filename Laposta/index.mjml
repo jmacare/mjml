@@ -47,7 +47,7 @@
     <mj-section full-width="full-width" background-color="#ffffff" padding="0px 24px 0px 24px">
       <mj-group>
         <mj-column padding="24px 0px 24px 0px" vertical-align="middle">
-          <mj-image src="./I4003_2126_4002_960.png" alt="" css-class="lp-logo" align="left" width="200px">
+          <mj-image src="images/I4003_2126_4002_960.png" alt="" css-class="lp-logo" align="left" width="200px">
           </mj-image>
         </mj-column>
         <mj-column padding="24px 0px 24px 0px" vertical-align="middle">
@@ -66,7 +66,7 @@
     <mj-raw>
       <lp-layout>
     </mj-raw>
-    <mj-section>
+    <mj-wrapper>
       <mj-section full-width="full-width" background-color="#234793" padding="48px 24px 48px 24px">
         <mj-column vertical-align="top">
           <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
@@ -82,14 +82,14 @@
       </mj-raw>
       <mj-section background-color="#f5f5fb">
         <mj-column vertical-align="top">
-          <mj-image src="./I4003_2153_122_2405_79_239_30_297.png" alt="" css-class="Hero image" fluid-on-mobile="true" align="left" width="700px">
+          <mj-image src="images/I4003_2153_122_2405_79_239_30_297.png" alt="" css-class="Hero image" fluid-on-mobile="true" align="left" width="700px">
           </mj-image>
         </mj-column>
       </mj-section>
       <mj-raw>
         </lp-layout>
       </mj-raw>
-    </mj-section>
+    </mj-wrapper>
     <mj-raw>
       </lp-layout>
     </mj-raw>
@@ -104,13 +104,13 @@
           </H3>
         </mj-text>
         <mj-text padding="0px 0px 4px 0px" color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-singleline><img class="inline-image" src="./I136_842_65_138_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Lorem ipsum dolor sit amet.</lp-singleline>
+          <lp-singleline><img class="inline-image" src="images/I136_842_65_138_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Lorem ipsum dolor sit amet.</lp-singleline>
         </mj-text>
         <mj-text padding="0px 0px 4px 0px" color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-singleline><img class="inline-image" src="./I136_842_115_903_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Consectetur adipiscing elit, sed do.</lp-singleline>
+          <lp-singleline><img class="inline-image" src="images/I136_842_115_903_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Consectetur adipiscing elit, sed do.</lp-singleline>
         </mj-text>
         <mj-text padding="0px 0px 4px 0px" color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-singleline><img class="inline-image" src="./I136_842_65_139_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Ut enim ad minim veniam.</lp-singleline>
+          <lp-singleline><img class="inline-image" src="images/I136_842_65_139_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Ut enim ad minim veniam.</lp-singleline>
         </mj-text>
         <mj-spacer height="24px">
         </mj-spacer>
@@ -189,7 +189,7 @@
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
           </H2>
         </mj-text>
-        <mj-image src="./I114_344_114_340_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="652px">
+        <mj-image src="images/I114_344_114_340_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="652px">
         </mj-image>
         <mj-text padding="24px 0px 24px 0px" color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
@@ -213,7 +213,7 @@
           </H2>
         </mj-text>
         <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"><img class="inline-image" src="./I117_1052_115_1035_37_172_37_110.png" width="322" height="110" align="right" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
+          <lp-multiline lp-label="Tekstblok"><img class="inline-image" src="images/I117_1052_115_1035_37_172_37_110.png" width="322" height="110" align="right" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -231,7 +231,7 @@
           </H2>
         </mj-text>
         <mj-text color="#333f50" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"><img class="inline-image" src="./I117_1136_117_1080_37_116_37_110.png" width="322" height="110" align="left" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
+          <lp-multiline lp-label="Tekstblok"><img class="inline-image" src="images/I117_1136_117_1080_37_116_37_110.png" width="322" height="110" align="left" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -243,7 +243,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column width="200px" vertical-align="top">
-        <mj-image src="./I119_1508_119_1479_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="200px">
+        <mj-image src="images/I119_1508_119_1479_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="200px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -269,7 +269,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
       <mj-column vertical-align="top">
-        <mj-image src="./I120_1643_41_255_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="652px">
+        <mj-image src="images/I120_1643_41_255_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="652px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -339,7 +339,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I117_1372_117_1334_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
+        <mj-image src="images/I117_1372_117_1334_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
         </mj-image>
         <mj-text padding="16px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
           <H3>
@@ -355,7 +355,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I117_1372_117_1358_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
+        <mj-image src="images/I117_1372_117_1358_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
         </mj-image>
         <mj-text padding="16px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="Mulish" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
           <H3>
@@ -375,7 +375,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I120_1655_119_1595_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="318px">
+        <mj-image src="images/I120_1655_119_1595_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="318px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -383,7 +383,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./I120_1655_119_1599_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="318px">
+        <mj-image src="images/I120_1655_119_1599_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="318px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -395,7 +395,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
       <mj-column width="206.6666717529297px" vertical-align="top">
-        <mj-image src="./I120_1649_119_1624_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.6666717529297px">
+        <mj-image src="images/I120_1649_119_1624_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.6666717529297px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -403,7 +403,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="206.66665649414062px" vertical-align="top">
-        <mj-image src="./I120_1649_119_1628_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.66665649414062px">
+        <mj-image src="images/I120_1649_119_1628_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.66665649414062px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -411,7 +411,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="206.66665649414062px" vertical-align="top">
-        <mj-image src="./I120_1649_119_1637_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.66665649414062px">
+        <mj-image src="images/I120_1649_119_1637_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.66665649414062px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -475,7 +475,7 @@
     <mj-raw>
       <lp-layout lp-label="Quote - Wit">
     </mj-raw>
-    <mj-section>
+    <mj-wrapper>
       <mj-section background-color="#ffffff" padding="8px 24px 8px 24px">
         <mj-column vertical-align="top">
           <mj-image width="70px">
@@ -491,7 +491,7 @@
       </mj-section>
       <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
         <mj-column width="60px" vertical-align="middle">
-          <mj-image src="./I4003_2186_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
+          <mj-image src="images/I4003_2186_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
           </mj-image>
         </mj-column>
         <mj-column width="16px" vertical-align="middle">
@@ -507,14 +507,14 @@
           </mj-text>
         </mj-column>
       </mj-section>
-    </mj-section>
+    </mj-wrapper>
     <mj-raw>
       </lp-layout>
     </mj-raw>
     <mj-raw>
       <lp-layout lp-label="Quote - Oranje">
     </mj-raw>
-    <mj-section>
+    <mj-wrapper>
       <mj-section background-color="#e84e0f" padding="8px 24px 8px 24px">
         <mj-column vertical-align="top">
           <mj-image width="70px">
@@ -530,7 +530,7 @@
       </mj-section>
       <mj-section background-color="#e84e0f" padding="24px 24px 24px 24px">
         <mj-column width="60px" vertical-align="middle">
-          <mj-image src="./I4003_2187_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
+          <mj-image src="images/I4003_2187_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
           </mj-image>
         </mj-column>
         <mj-column width="16px" vertical-align="middle">
@@ -546,14 +546,14 @@
           </mj-text>
         </mj-column>
       </mj-section>
-    </mj-section>
+    </mj-wrapper>
     <mj-raw>
       </lp-layout>
     </mj-raw>
     <mj-raw>
       <lp-layout lp-label="Quote - Blauw">
     </mj-raw>
-    <mj-section>
+    <mj-wrapper>
       <mj-section background-color="#234793" padding="8px 24px 8px 24px">
         <mj-column vertical-align="top">
           <mj-image width="70px">
@@ -569,7 +569,7 @@
       </mj-section>
       <mj-section background-color="#234793" padding="24px 24px 24px 24px">
         <mj-column width="60px" vertical-align="middle">
-          <mj-image src="./I4003_2188_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
+          <mj-image src="images/I4003_2188_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
           </mj-image>
         </mj-column>
         <mj-column width="16px" vertical-align="middle">
@@ -584,7 +584,7 @@
             <lp-multiline lp-label="Titel"> Functie, Bedrijf</lp-multiline>
           </mj-text>
         </mj-column>
-      </mj-section>
+    </mj-wrapper>
     </mj-section>
     <mj-raw>
       </lp-layout>
@@ -640,7 +640,7 @@
     <mj-raw>
       </lp-repeater>
     </mj-raw>
-    <mj-section background-color="#ffffff">
+    <mj-wrapper full-width="full-width" background-color="#234793">
       <mj-section full-width="full-width" background-color="#234793" padding="24px 24px 8px 24px">
         <mj-column vertical-align="top">
           <mj-text color="#e84e0f" font-size="20px" font-family="Mulish" font-weight="900" line-height="24px" text-transform="uppercase" align="left" text-decoration="none">
@@ -649,12 +649,24 @@
         </mj-column>
       </mj-section>
       <mj-section full-width="full-width" background-color="#234793" padding="0px 24px 0px 24px">
-        <mj-column width="326px" vertical-align="bottom">
+        <mj-column width="318px" vertical-align="bottom">
           <mj-text color="#ffffff" font-size="16px" font-family="Mulish" font-weight="400" line-height="24px" align="left" text-decoration="none">
             <lp-multiline> Florijn 13, 8305 BR Emmeloord +31 (0)527 61 34 56 | info@dictator.nl</lp-multiline>
           </mj-text>
         </mj-column>
-        <mj-column width="326px" vertical-align="bottom">
+        <mj-column width="16px" vertical-align="bottom">
+          <mj-spacer height="16px">
+          </mj-spacer>
+        </mj-column>
+        <mj-column width="318px" vertical-align="bottom">
+          <mj-image src="images/I2001_1532_4014_2404_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="28px">
+          </mj-image>
+          <mj-image src="images/I2001_1532_4014_2437_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="28px">
+          </mj-image>
+          <mj-image src="images/I2001_1532_4014_2477_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="28px">
+          </mj-image>
+          <mj-image src="images/I2001_1532_4014_2523_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="28px">
+          </mj-image>
         </mj-column>
       </mj-section>
       <mj-section full-width="full-width" background-color="#234793" padding="24px 24px 0px 24px">
@@ -673,10 +685,10 @@
       <mj-section full-width="full-width" background-color="#234793" padding="16px 24px 16px 24px">
         <mj-column vertical-align="top">
           <mj-text color="#afbdda" font-size="12px" font-family="Mulish" font-weight="400" line-height="16px" align="center" text-decoration="none">
-            <lp-singleline> Deze e-mail is verstuurd aan {{email}}. Als je geen e-mails meer wilt ontvangen dan kun je je hier afmelden. Je kunt ook je gegevens inzien en wijzigen. Voeg {{from_email}} toe aan je adresboek voor een betere ontvangst.</lp-singleline>
+            <lp-singleline> Deze e-mail is verstuurd aan {{email}}. Als je geen e-mails meer wilt ontvangen dan kun je je hier afmelden. Je kunt ook je gegevens inzien en wijzigen. Voeg {{from_email}} toe aan je adresboek voor een betere ontvangst.</lp-singleline>
           </mj-text>
         </mj-column>
       </mj-section>
-    </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>
