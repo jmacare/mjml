@@ -16,7 +16,7 @@
     <mj-attributes>
       <mj-all padding="0" />
     </mj-attributes>
-    <mj-style inline="inline"> h1 { font-family: Mulish; font-size: 40px; font-weight: 900; line-height: 48px; text-transform: uppercase; } h2 { font-family: Mulish; font-size: 32px; font-weight: 900; line-height: 38px; text-transform: uppercase; } h3 { font-family: Mulish; font-size: 28px; font-weight: 900; line-height: 34px; text-transform: uppercase; } h4 { font-family: Mulish; font-size: 24px; font-weight: 900; line-height: 28px; text-transform: uppercase; } h5 { font-family: Mulish; font-size: 20px; font-weight: 900; line-height: 24px; text-transform: uppercase; } h6 { font-family: Mulish; font-size: 16px; font-weight: 900; line-height: 24px; text-transform: uppercase; } </mj-style>
+    <mj-style inline="inline"> h1 { font-family: Mulish,Arial; font-size: 40px; font-weight: 900; line-height: 48px; text-transform: uppercase; } h2 { font-family: Mulish,Arial; font-size: 32px; font-weight: 900; line-height: 38px; text-transform: uppercase; } h3 { font-family: Mulish,Arial; font-size: 28px; font-weight: 900; line-height: 34px; text-transform: uppercase; } h4 { font-family: Mulish,Arial; font-size: 24px; font-weight: 900; line-height: 28px; text-transform: uppercase; } h5 { font-family: Mulish,Arial; font-size: 20px; font-weight: 900; line-height: 24px; text-transform: uppercase; } h6 { font-family: Mulish,Arial; font-size: 16px; font-weight: 900; line-height: 24px; text-transform: uppercase; } </mj-style>
     <mj-style> 
     a:-webkit-any-link,
     a:link {
@@ -130,10 +130,10 @@
     <mj-wrapper full-width="full-width" background-url="images/hero-bg_light.png" background-size="auto 100%">
       <mj-section full-width="full-width" background-color="#234793" padding="48px 24px 48px 24px">
         <mj-column vertical-align="top">
-          <mj-text padding="0px 0px 8px 0px" color="#FB6B37" font-size="28px" font-family="'Mulish',Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
+          <mj-text padding="0px 0px 8px 0px" color="#FB6B37" font-size="28px" font-family="Mulish,Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
             <lp-singleline lp-label="Intro titel"> [introtitel] Lorem ipsum</lp-singleline>
           </mj-text>
-          <mj-text color="#ffffff" font-size="16px" font-family="'Mulish',Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
+          <mj-text color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
             <lp-multiline> [INTROTEXT] DICTATOR richt zich op het ontwikkelen van betrouwbare oplossingen voor deursluit-, opvang-, aandrijf- en gasveertechniek. Met vijf productievestigingen in Europa en een wereldwijd netwerk van distributiepunten is onze productie hoofdzakelijk Europees.</lp-multiline>
           </mj-text>
         </mj-column>
