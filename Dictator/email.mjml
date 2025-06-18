@@ -130,7 +130,7 @@
     <mj-wrapper full-width="full-width" background-url="images/hero-bg_light.png" background-size="auto 100%">
       <mj-section full-width="full-width" background-color="#234793" padding="48px 24px 48px 24px">
         <mj-column vertical-align="top">
-          <mj-text padding="0px 0px 8px 0px" color="#e84e0f" font-size="28px" font-family="'Mulish',Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
+          <mj-text padding="0px 0px 8px 0px" color="#FB6B37" font-size="28px" font-family="'Mulish',Arial" font-weight="900" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
             <lp-singleline lp-label="Intro titel"> [introtitel] Lorem ipsum</lp-singleline>
           </mj-text>
           <mj-text color="#ffffff" font-size="16px" font-family="'Mulish',Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
@@ -539,8 +539,7 @@
     <mj-wrapper>
       <mj-section background-color="#ffffff" padding="8px 24px 8px 24px">
         <mj-column vertical-align="top">
-          <mj-image width="70px">
-          </mj-image>
+          <mj-image src="images/quote.png" align="left" width="70px"></mj-image>
         </mj-column>
       </mj-section>
       <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
@@ -576,20 +575,19 @@
       <lp-layout lp-label="Quote - Oranje">
     </mj-raw>
     <mj-wrapper>
-      <mj-section background-color="#e84e0f" padding="8px 24px 8px 24px">
+      <mj-section background-color="#D3450D" padding="8px 24px 8px 24px">
         <mj-column vertical-align="top">
-          <mj-image width="70px">
-          </mj-image>
+          <mj-image src="images/quote_white.png" align="left" width="70px"></mj-image>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#e84e0f" padding="0px 24px 0px 24px">
+      <mj-section background-color="#D3450D" padding="0px 24px 0px 24px">
         <mj-column vertical-align="top">
           <mj-text color="#f8f9fa" font-size="24px" font-family="Indie Flower" font-weight="400" line-height="36px" align="left" text-decoration="none">
             <lp-multiline lp-label="Titel"> “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</lp-multiline>
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#e84e0f" padding="24px 24px 24px 24px">
+      <mj-section background-color="#D3450D" padding="24px 24px 24px 24px">
         <mj-column width="60px" vertical-align="middle">
           <mj-image src="images/I4003_2187_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
           </mj-image>
@@ -617,8 +615,7 @@
     <mj-wrapper>
       <mj-section background-color="#234793" padding="8px 24px 8px 24px">
         <mj-column vertical-align="top">
-          <mj-image width="70px">
-          </mj-image>
+          <mj-image src="images/quote_white.png" align="left" width="70px"></mj-image>
         </mj-column>
       </mj-section>
       <mj-section background-color="#234793" padding="0px 24px 0px 24px">
@@ -704,7 +701,7 @@
     <mj-wrapper full-width="full-width" background-color="#234793">
       <mj-section full-width="full-width" background-color="#234793" padding="24px 24px 8px 24px">
         <mj-column vertical-align="top">
-          <mj-text color="#e84e0f" font-size="20px" font-family="Mulish,Arial" font-weight="900" line-height="24px" text-transform="uppercase" align="left" text-decoration="none">
+          <mj-text color="#FB6B37" font-size="20px" font-family="Mulish,Arial" font-weight="900" line-height="24px" text-transform="uppercase" align="left" text-decoration="none">
             <lp-singleline> CONTACTGEGEVENS</lp-singleline>
           </mj-text>
         </mj-column>
@@ -759,7 +756,7 @@
             <lp-multiline> 
               Bezoek onze website voor meer informatie
               <br/>
-              <a href="https://www.dictator.nl">www.dictator.nl</a>
+              <a href="https://www.dictator.nl" style="font-weight: bold; text-decoration: none; color:#FB6B37;">www.dictator.nl</a>
             </lp-multiline>
           </mj-text>
         </mj-column>
