@@ -264,9 +264,18 @@
       padding: 0 !important
     }
 
-    a:-webkit-any-link,
-    a:link {
-      color: inherit
+    .lp-toc img {
+      height: 24px !important
+    }
+
+    .lp-toc-link, .lp-toc-link a {
+      color:#333f50;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+      text-align:left;
+      text-decoration:none
     }
 
     @media screen and (max-width:700px) {
@@ -626,33 +635,8 @@
                                 </td>
                               </tr>
                               <tr>
-                                <td align="left" style="font-size:0;padding:0 0 4px;word-break:break-word">
-                                  <div
-                                    style="color:#333f50;font-family:Mulish,Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
-                                    <lp-singleline><img class="inline-image"
-                                        src="images/I136_842_65_138_37_112_37_110.png" width="16" height="24"
-                                        align="left" style="margin-right:10px" lp-edit lp-resizable> Lorem ipsum dolor
-                                      sit amet.</lp-singleline> </div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="left" style="font-size:0;padding:0 0 4px;word-break:break-word">
-                                  <div
-                                    style="color:#333f50;font-family:Mulish,Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
-                                    <lp-singleline><img class="inline-image"
-                                        src="images/I136_842_115_903_37_112_37_110.png" width="16" height="24"
-                                        align="left" style="margin-right:10px" lp-edit lp-resizable> Consectetur
-                                      adipiscing elit, sed do.</lp-singleline> </div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="left" style="font-size:0;padding:0 0 4px;word-break:break-word">
-                                  <div
-                                    style="color:#333f50;font-family:Mulish,Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
-                                    <lp-singleline><img class="inline-image"
-                                        src="images/I136_842_65_139_37_112_37_110.png" width="16" height="24"
-                                        align="left" style="margin-right:10px" lp-edit lp-resizable> Ut enim ad minim
-                                      veniam.</lp-singleline> </div>
+                                <td class="toc" style="color:#333f50;font-family:Mulish,Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
+                                  <lp-toc lp-bullet-padding-right="16" lp-bullet-padding-left="1" lp-bullet="https://jmacare.github.io/mjml/Dictator/assets/lp-toc.png"></lp-toc>
                                 </td>
                               </tr>
                               <tr>
@@ -727,7 +711,7 @@
                                       style="color:#e84e0f;font-family:Mulish,Arial;font-size:40px;font-weight:900;line-height:48px;text-align:left;text-decoration:none;text-transform:uppercase">
                                       <h1
                                         style="font-family:Mulish,Arial;font-size:40px;font-weight:900;line-height:48px;text-transform:uppercase">
-                                        <lp-singleline> H1 titel</lp-singleline> </h1>
+                                        <lp-singleline>H1 titel</lp-singleline> </h1>
                                     </div>
                                   </td>
                                 </tr>
@@ -2932,10 +2916,9 @@
                                                           <div
                                                             style="color:#afbdda;font-family:Mulish,Arial;font-size:12px;font-weight:400;line-height:16px;text-align:center;text-decoration:none">
                                                             <lp-multiline> Deze e-mail is verstuurd aan {{email}}. <br>
-                                                              Als je geen e-mails meer wilt ontvangen dan kun je je hier
-                                                              afmelden. <br> Je kunt ook je gegevens inzien en wijzigen.
-                                                              <br> Voeg {{from_email}} toe aan je adresboek voor een
-                                                              betere ontvangst.</lp-multiline> </div>
+                                                              Als je geen e-mails meer wilt ontvangen dan kun je je <lp-unsubscribe>hier
+                                                              afmelden.</lp-unsubscribe><br> Je kunt ook je <lp-editprofile>gegevens inzien en wijzigen</lp-editprofile>.
+                                                              <br> Voeg {{from_email}} toe aan je adresboek voor een betere ontvangst.</lp-multiline> </div>
                                                         </td>
                                                       </tr>
                                                     </tbody>
