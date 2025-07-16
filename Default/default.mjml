@@ -1,3 +1,4 @@
+
 <mjml>
   <mj-head>
     <mj-html-attributes>
@@ -12,7 +13,62 @@
       <mj-all padding="0" />
     </mj-attributes>
     <mj-style inline="inline"> h1 { font-family: Arial; font-size: 40px; font-weight: 700; line-height: 48px; } h2 { font-family: Arial; font-size: 32px; font-weight: 700; line-height: 38px; } h3 { font-family: Arial; font-size: 28px; font-weight: 700; line-height: 34px; } h4 { font-family: Arial; font-size: 24px; font-weight: 700; line-height: 28px; } h5 { font-family: Arial; font-size: 20px; font-weight: 700; line-height: 24px; } h6 { font-family: Arial; font-size: 16px; font-weight: 700; line-height: 24px; } </mj-style>
-    <mj-style> H1, H2, H3, H4, H5, H6 { margin: 0 !important; padding: 0 !important; } a:link, a:-webkit-any-link { color: inherit; } @media screen and (max-width:700px) { .inline-image { display: block !important; float: none !important; max-width: 100% !important; } table[class="lp-image-wrapper"] { width:100% !important; } td[class="lp-image-wrapper-h"] { display: none !important; } td[class="lp-image-wrapper-img"] { display: block !important; width: 100% !important; overflow: auto !important; } img[class="lp-multiline-image"] { width: 100% !important; height: auto !important; margin: 0 !important; } } </mj-style>
+    <mj-style> 
+      H1, H2, H3, H4, H5, H6 { margin: 0 !important; padding: 0 !important; } a:link, a:-webkit-any-link { color: inherit; } @media screen and (max-width:700px) { .inline-image { display: block !important; float: none !important; max-width: 100% !important; } table[class="lp-image-wrapper"] { width:100% !important; } td[class="lp-image-wrapper-h"] { display: none !important; } td[class="lp-image-wrapper-img"] { display: block !important; width: 100% !important; overflow: auto !important; } img[class="lp-multiline-image"] { width: 100% !important; height: auto !important; margin: 0 !important; } } 
+      
+      a:-webkit-any-link,
+      a:link {
+        color: inherit
+      }
+
+      a {
+        color: #ff00ff !important;
+      }
+
+      a[x-apple-data-detectors] {
+        color: #ff00ff !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+      u + #body a {
+        color: #ff00ff !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+      #MessageViewBody a {
+        color: #ff00ff !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+
+      .cta-button td a[x-apple-data-detectors] {
+        color: #ff00ff !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+      u + #body .cta-button td a {
+        color: #ff00ff !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+      #MessageViewBody .cta-button td a {
+        color: #ff00ff !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+    </mj-style>
     <mj-breakpoint width="700px" />
   </mj-head>
   <mj-body background-color="#f1eee9" width="700px">
@@ -129,7 +185,7 @@
         <mj-text padding="0px 0px 16px 0px" color="#212529" font-size="16px" font-family="Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
-        <mj-button background-color="#007bff" inner-padding="16px 32px 16px 32px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com">
+        <mj-button css-class="cta-button" background-color="#007bff" inner-padding="16px 32px 16px 32px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com">
           <lp-singleline>Lorem ipsum</lp-singleline>
         </mj-button>
       </mj-column>
@@ -152,7 +208,7 @@
         <mj-text padding="24px 0px 24px 0px" color="#212529" font-size="16px" font-family="Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
-        <mj-button background-color="#007bff" inner-padding="16px 24px 16px 24px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com">
+        <mj-button css-class="cta-button" background-color="#007bff" inner-padding="16px 24px 16px 24px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com">
           <lp-singleline>Lorem ipsum</lp-singleline>
         </mj-button>
       </mj-column>
@@ -239,7 +295,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
       <mj-column vertical-align="middle">
-        <mj-button background-color="#007bff" inner-padding="16px 24px 16px 24px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com">
+        <mj-button css-class="cta-button" background-color="#007bff" inner-padding="16px 24px 16px 24px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com">
           <lp-singleline lp-label="Button">Lorem ipsum</lp-singleline>
         </mj-button>
       </mj-column>
@@ -252,7 +308,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
       <mj-column vertical-align="middle">
-        <mj-button background-color="#6c757d" inner-padding="16px 24px 16px 24px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com">
+        <mj-button css-class="cta-button" background-color="#6c757d" inner-padding="16px 24px 16px 24px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com">
           <lp-singleline lp-label="Button">Lorem ipsum</lp-singleline>
         </mj-button>
       </mj-column>
@@ -404,7 +460,7 @@
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</lp-singleline>
           </H2>
         </mj-text>
-        <mj-button background-color="#f8f9fa" inner-padding="16px 24px 16px 24px" border-radius="8px" color="#000000" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="center" text-decoration="none" href="https://google.com">
+        <mj-button css-class="cta-button" background-color="#f8f9fa" inner-padding="16px 24px 16px 24px" border-radius="8px" color="#000000" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="center" text-decoration="none" href="https://google.com">
           <lp-singleline lp-label="Button">Lorem ipsum</lp-singleline>
         </mj-button>
       </mj-column>
