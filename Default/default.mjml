@@ -25,6 +25,14 @@
         color: #ff00ff !important;
       }
 
+      .cta-button a {
+        color: #ffffff !important;
+      }
+
+      .cta-button.text-dark a {
+        color: #212529 !important;
+      }
+
       a[x-apple-data-detectors] {
         color: #ff00ff !important;
         font-size: inherit !important;
@@ -48,21 +56,21 @@
       }
 
       .cta-button td a[x-apple-data-detectors] {
-        color: #ff00ff !important;
+        color: #ffffff !important;
         font-size: inherit !important;
         font-family: inherit !important;
         font-weight: inherit !important;
         line-height: inherit !important;
       }
       u + #body .cta-button td a {
-        color: #ff00ff !important;
+        color: #ffffff !important;
         font-size: inherit !important;
         font-family: inherit !important;
         font-weight: inherit !important;
         line-height: inherit !important;
       }
       #MessageViewBody .cta-button td a {
-        color: #ff00ff !important;
+        color: #ffffff !important;
         font-size: inherit !important;
         font-family: inherit !important;
         font-weight: inherit !important;
@@ -460,7 +468,7 @@
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</lp-singleline>
           </H2>
         </mj-text>
-        <mj-button css-class="cta-button" background-color="#f8f9fa" inner-padding="16px 24px 16px 24px" border-radius="8px" color="#000000" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="center" text-decoration="none" href="https://google.com">
+        <mj-button css-class="cta-button text-dark" background-color="#f8f9fa" inner-padding="16px 24px 16px 24px" border-radius="8px" color="#000000" font-size="16px" font-family="Arial" font-weight="700" line-height="20px" align="center" text-decoration="none" href="https://google.com">
           <lp-singleline lp-label="Button">Lorem ipsum</lp-singleline>
         </mj-button>
       </mj-column>
