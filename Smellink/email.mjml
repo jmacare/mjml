@@ -20,7 +20,7 @@
     <mj-raw>
       <lp-layout lp-label="Weblink">
     </mj-raw>
-    <mj-section background-color="#233971" padding="0px 24px 0px 24px">
+    <mj-section full-width="full-width" background-color="#233971" padding="0px 24px 0px 24px">
       <mj-group>
         <mj-column padding="16px 0px 16px 0px" vertical-align="top">
           <mj-text color="#ffffff" font-size="12px" font-family="Barlow, Arial" font-weight="400" line-height="16px" align="left" text-decoration="none">
