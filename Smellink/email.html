@@ -186,7 +186,7 @@
       color: #233971 !important
     }
 
-    .cta-button a {
+    .cta-button a, .webversion-link a, .footer-links a {
       color: #fff !important
     }
 
@@ -304,8 +304,7 @@
                                           <td align="left" style="font-size:0;padding:0;word-break:break-word">
                                             <div
                                               style="color:#fff;font-family:Barlow,Arial;font-size:12px;font-weight:400;line-height:16px;text-align:left;text-decoration:none">
-                                              <lp-singleline lp-label="Korte beschrijving"> Een korte beschrijving van
-                                                de nieuwsbrief</lp-singleline> </div>
+                                              <lp-singleline lp-label="Korte beschrijving"> Een korte beschrijving van de nieuwsbrief</lp-singleline> </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -325,10 +324,8 @@
                                       <tbody>
                                         <tr>
                                           <td align="right" style="font-size:0;padding:0;word-break:break-word">
-                                            <div
-                                              style="color:#fff;font-family:Barlow,Arial;font-size:12px;font-weight:400;line-height:16px;text-align:right;text-decoration:underline">
-                                              <lp-singleline lp-label="Webversie"> <lp-webversion> Bekijk de
-                                                  webversie</lp-webversion> </lp-singleline> </div>
+                                            <div class="webversion-link" style="color:#fff;font-family:Barlow,Arial;font-size:12px;font-weight:400;line-height:16px;text-align:right;text-decoration:underline">
+                                              <lp-singleline lp-label="Webversie"> <lp-webversion> Bekijk de webversie</lp-webversion> </lp-singleline> </div>
                                           </td>
                                         </tr>
                                       </tbody>
@@ -470,8 +467,8 @@
                                 <td align="left" style="font-size:0;padding:0 0 4px;word-break:break-word">
                                   <div
                                     style="color:#233971;font-family:Barlow,Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
-                                    <lp-singleline> <lp-toc lp-bullet-padding-right="16" lp-bullet-padding-left="1">
-                                      </lp-toc></lp-singleline> </div>
+                                    <lp-toc lp-bullet-padding-right="16" lp-bullet-padding-left="1"></lp-toc>
+                                    </div>
                                 </td>
                               </tr>
                               <tr>
@@ -491,7 +488,7 @@
           </tbody>
         </table>
       </div> <!--[if mso | IE]></td></tr></table><![endif]-->
-    </lp-layout><lp-repeater><lp-layout lp-label="H1">
+    </lp-layout><lp-repeater><lp-layout lp-label="[H1] Titel - eenmalig gebruiken">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -514,7 +511,7 @@
                                       style="color:#233971;font-family:Barlow,Arial;font-size:32px;font-weight:600;line-height:40px;text-align:left;text-decoration:none;text-transform:uppercase">
                                       <h1
                                         style="font-family:Barlow;font-size:32px;font-weight:600;line-height:40px;text-transform:uppercase">
-                                        <lp-singleline lp-label="Titel"> [H1] titel - eenmalig gebruiken</lp-singleline>
+                                        <lp-singleline lp-label="Titel">[H1] titel - eenmalig gebruiken</lp-singleline>
                                       </h1>
                                     </div>
                                   </td>
@@ -531,7 +528,7 @@
             </tbody>
           </table>
         </div> <!--[if mso | IE]></td></tr></table><![endif]-->
-      </lp-layout><lp-layout lp-label="H1">
+      </lp-layout><lp-layout lp-label="[H2] Subtitel">
         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:700px;" width="700" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
         <div style="background:#fff;background-color:#fff;margin:0 auto;max-width:700px">
           <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
@@ -554,7 +551,7 @@
                                       style="color:#233971;font-family:Barlow,Arial;font-size:28px;font-weight:600;line-height:34px;text-align:left;text-decoration:none;text-transform:uppercase">
                                       <h2
                                         style="font-family:Barlow;font-size:28px;font-weight:600;line-height:34px;text-transform:uppercase">
-                                        <lp-singleline lp-label="Titel"> [H2] Substitel</lp-singleline> </h2>
+                                        <lp-singleline lp-label="Titel">[H2] Substitel</lp-singleline> </h2>
                                     </div>
                                   </td>
                                 </tr>
@@ -2439,11 +2436,13 @@
                                               <tr>
                                                 <td align="left"
                                                   style="font-size:0;padding:16px 0 0;word-break:break-word">
-                                                  <div
-                                                    style="color:#fff;font-family:Barlow,Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
-                                                    <lp-multiline lp-label="Uitschrijven"> <lp-unsubscribe>Afmelden
-                                                        nieuwsbrief</lp-unsubscribe> <br> <lp-editprofile>Gegevens
-                                                        wijzigen</lp-editprofile> </lp-multiline> </div>
+                                                  <div class="footer-links" style="color:#fff;font-family:Barlow,Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
+                                                    <lp-multiline lp-label="Uitschrijven"> 
+                                                      <lp-unsubscribe>Afmelden nieuwsbrief</lp-unsubscribe> 
+                                                      <br>
+                                                      <lp-editprofile>Gegevens wijzigen</lp-editprofile> 
+                                                    </lp-multiline> 
+                                                  </div>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -2490,8 +2489,7 @@
                                                   style="font-size:0;padding:16px 0 0;word-break:break-word">
                                                   <div
                                                     style="color:#fff;font-family:Barlow,Arial;font-size:16px;font-weight:400;line-height:24px;text-align:right;text-decoration:none">
-                                                    <lp-multiline lp-label="Copyright"> © Smellink Group
-                                                      BV</lp-multiline> </div>
+                                                    <lp-multiline lp-label="Copyright"> © Smellink Group BV</lp-multiline> </div>
                                                 </td>
                                               </tr>
                                             </tbody>
