@@ -478,9 +478,9 @@
       <lp-layout lp-label="Quote - Wit">
     </mj-raw>
     <mj-wrapper>
-      <mj-section background-color="#ffffff" padding="8px 24px 8px 24px">
+      <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
         <mj-column vertical-align="top">
-          <mj-image src="images/quote.png" alt="" align="left" width="70px"></mj-image>
+          <mj-image src="images/quote_alt.png" alt="" align="left" width="50px"></mj-image>
         </mj-column>
       </mj-section>
       <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
@@ -491,15 +491,15 @@
         </mj-column>
       </mj-section>
       <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
-        <mj-column width="60px" vertical-align="middle">
-          <mj-image src="images/I4003_2186_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
+        <mj-column width="100px" vertical-align="middle">
+          <mj-image src="images/I4003_2186_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="100px">
           </mj-image>
         </mj-column>
         <mj-column width="16px" vertical-align="middle">
           <mj-spacer height="16px">
           </mj-spacer>
         </mj-column>
-        <mj-column width="576px" vertical-align="middle">
+        <mj-column width="536px" vertical-align="middle">
           <mj-text color="#e84e0f" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="24px" align="left" text-decoration="none">
             <lp-singleline lp-label="Titel"> Jane Doe</lp-singleline>
           </mj-text>
@@ -516,9 +516,9 @@
       <lp-layout lp-label="Quote - Oranje">
     </mj-raw>
     <mj-wrapper>
-      <mj-section background-color="#e84e0f" padding="8px 24px 8px 24px">
+      <mj-section background-color="#e84e0f" padding="16px 24px 16px 24px">
         <mj-column vertical-align="top">
-          <mj-image src="images/quote_white.png" alt="" align="left" width="70px"></mj-image>
+          <mj-image src="images/quote_white_alt.png" alt="" align="left" width="50px"></mj-image>
         </mj-column>
       </mj-section>
       <mj-section background-color="#e84e0f" padding="0px 24px 0px 24px">
@@ -529,15 +529,15 @@
         </mj-column>
       </mj-section>
       <mj-section background-color="#e84e0f" padding="24px 24px 24px 24px">
-        <mj-column width="60px" vertical-align="middle">
-          <mj-image src="images/I4003_2187_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
+        <mj-column width="100px" vertical-align="middle">
+          <mj-image src="images/I4003_2187_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="100px">
           </mj-image>
         </mj-column>
         <mj-column width="16px" vertical-align="middle">
           <mj-spacer height="16px">
           </mj-spacer>
         </mj-column>
-        <mj-column width="576px" vertical-align="middle">
+        <mj-column width="536px" vertical-align="middle">
           <mj-text color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="24px" align="left" text-decoration="none">
             <lp-singleline lp-label="Titel"> Jane Doe</lp-singleline>
           </mj-text>
@@ -554,9 +554,9 @@
       <lp-layout lp-label="Quote - Blauw">
     </mj-raw>
     <mj-wrapper>
-      <mj-section background-color="#234793" padding="8px 24px 8px 24px">
+      <mj-section background-color="#234793" padding="16px 24px 16px 24px">
         <mj-column vertical-align="top">
-          <mj-image src="images/quote_white.png" alt="" align="left" width="70px"></mj-image>
+          <mj-image src="images/quote_white_alt.png" alt="" align="left" width="50px"></mj-image>
         </mj-column>
       </mj-section>
       <mj-section background-color="#234793" padding="0px 24px 0px 24px">
@@ -567,15 +567,15 @@
         </mj-column>
       </mj-section>
       <mj-section background-color="#234793" padding="24px 24px 24px 24px">
-        <mj-column width="60px" vertical-align="middle">
-          <mj-image src="images/I4003_2188_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="60px">
+        <mj-column width="100px" vertical-align="middle">
+          <mj-image src="images/I4003_2188_4002_1097_52_69.png" alt="" css-class="lp-edit" align="left" border-radius="800px" width="100px">
           </mj-image>
         </mj-column>
         <mj-column width="16px" vertical-align="middle">
           <mj-spacer height="16px">
           </mj-spacer>
         </mj-column>
-        <mj-column width="576px" vertical-align="middle">
+        <mj-column width="536px" vertical-align="middle">
           <mj-text color="#ffffff" font-size="16px" font-family="Mulish,Arial" font-weight="700" line-height="24px" align="left" text-decoration="none">
             <lp-singleline lp-label="Titel"> Jane Doe</lp-singleline>
           </mj-text>
@@ -588,6 +588,7 @@
     <mj-raw>
       </lp-layout>
     </mj-raw>
+
     <mj-raw>
       <lp-layout lp-label="Divider">
     </mj-raw>
