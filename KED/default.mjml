@@ -91,11 +91,7 @@
     </mj-section>
     <mj-raw>
       <lp-layout lp-label="Hero afbeelding">
-    </mj-raw>
-    <mj-raw>
-      <img src="./images/I6038_936_79_239_30_297.png" alt="" border="0" width="1000" style="width:100%; max-width:100%; display:block; margin: 0 auto;" lp-edit/>
-    </mj-raw>
-    <mj-raw>
+        <img src="./images/I6038_936_79_239_30_297.png" alt="" border="0" width="1000" style="width:100%; max-width:100%; display:block; margin: 0 auto;" lp-edit/>
       </lp-layout>
     </mj-raw>
     <mj-raw>
