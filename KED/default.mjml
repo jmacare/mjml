@@ -102,7 +102,7 @@
       <lp-repeater>
     </mj-raw>
     <mj-raw>
-      <lp-layout lp-label="Titel + introtekst">
+      <lp-layout lp-label="Intro">
     </mj-raw>
     <mj-section background-color="#f5f5fb" padding="48px 24px 16px 24px">
       <mj-column vertical-align="middle">
@@ -124,7 +124,7 @@
       </lp-layout>
     </mj-raw>
     <mj-raw>
-      <lp-layout lp-label="[H2] Titel">
+      <lp-layout lp-label="Titel">
     </mj-raw>
     <mj-section background-color="#0d366e" padding="16px 24px 16px 24px">
       <mj-column vertical-align="middle">
@@ -277,7 +277,7 @@
     <mj-raw>
       <lp-layout lp-label="Knop - Blauw">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 16px 16px 16px">
+    <mj-section background-color="#ffffff" padding="0 24px 16px 24px">
       <mj-column vertical-align="middle">
         <mj-button background-color="#0d366e" inner-padding="16px 24px 16px 24px" border-radius="4px" color="#ffffff" font-size="16px" font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com" css-class="cta-button">
           <lp-singleline>Klik hier</lp-singleline>
@@ -290,7 +290,7 @@
     <mj-raw>
       <lp-layout lp-label="Knop - Blauw - Gecentreerd">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 16px 16px 16px">
+    <mj-section background-color="#ffffff" padding="0 24px 16px 24px">
       <mj-column vertical-align="middle">
         <mj-button background-color="#0d366e" inner-padding="16px 24px 16px 24px" border-radius="4px" color="#ffffff" font-size="16px" font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="700" line-height="20px" align="center" text-decoration="none" href="https://google.com" css-class="cta-button">
           <lp-singleline>Klik hier</lp-singleline>
@@ -303,7 +303,7 @@
     <mj-raw>
       <lp-layout lp-label="Knop - Geel">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 16px 16px 16px">
+    <mj-section background-color="#ffffff" padding="0 24px 16px 24px">
       <mj-column vertical-align="middle">
         <mj-button background-color="#ffca00" inner-padding="16px 24px 16px 24px" border-radius="4px" color="#0d366e" font-size="16px" font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com" css-class="cta-button geel">
           <lp-singleline>Klik hier</lp-singleline>
@@ -316,7 +316,7 @@
     <mj-raw>
       <lp-layout lp-label="Knop - Geel - Gecentreerd">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 16px 16px 16px">
+    <mj-section background-color="#ffffff" padding="0 24px 16px 24px">
       <mj-column vertical-align="middle">
         <mj-button background-color="#ffca00" inner-padding="16px 24px 16px 24px" border-radius="4px" color="#0d366e" font-size="16px" font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="700" line-height="20px" align="center" text-decoration="none" href="https://google.com" css-class="cta-button geel">
           <lp-singleline>Klik hier</lp-singleline>
