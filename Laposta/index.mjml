@@ -1,10 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-font name="Barlow" href="https://fonts.googleapis.com/css?family=Barlow:300,400,600,700" />
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins:400,600,700,900" />
     <mj-html-attributes>
-      <mj-selector path=".lp-logo img">
-        <mj-html-attribute name="lp-logo"></mj-html-attribute>
-      </mj-selector>
       <mj-selector path=".lp-edit img">
         <mj-html-attribute name="lp-edit"></mj-html-attribute>
       </mj-selector>
@@ -12,25 +9,25 @@
     <mj-attributes>
       <mj-all padding="0" />
     </mj-attributes>
-    <mj-style inline="inline"> h1 { font-family: Barlow; font-size: 32px; font-weight: 600; line-height: 40px; text-transform: uppercase; } h2 { font-family: Barlow; font-size: 28px; font-weight: 600; line-height: 34px; text-transform: uppercase; } h3 { font-family: Barlow; font-size: 24px; font-weight: 600; line-height: 28px; text-transform: uppercase; } h4 { font-family: Barlow; font-size: 20px; font-weight: 700; line-height: 28px; } h5 { font-family: Barlow; font-size: 20px; font-weight: 700; line-height: 24px; } h6 { font-family: Barlow; font-size: 16px; font-weight: 700; line-height: 24px; } </mj-style>
-    <mj-style> H1, H2, H3, H4, H5, H6 { margin: 0 !important; padding: 0 !important; } a:-webkit-any-link, a:link { color: inherit } a { color: #233971 !important; } .cta-button a { color: #ffffff !important; } a[x-apple-data-detectors] { color: #233971 !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } u + #body a { color: #233971 !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } #MessageViewBody a { color: #233971 !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } .cta-button td a[x-apple-data-detectors] { color: #ffffff !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } u + #body .cta-button td a { color: #ffffff !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } #MessageViewBody .cta-button td a { color: #ffffff !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } .cta-button.text-dark a { color: #233971 !important; } .cta-button.text-dark td a[x-apple-data-detectors] { color: #233971 !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } u + #body .cta-button.text-dark td a { color: #233971 !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } #MessageViewBody .cta-button.text-dark td a { color: #233971 !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } @media screen and (max-width:700px) { .inline-image { display: block !important; float: none !important; max-width: 100% !important; } table[class="lp-image-wrapper"] { width:100% !important; } td[class="lp-image-wrapper-h"] { display: none !important; } td[class="lp-image-wrapper-img"] { display: block !important; width: 100% !important; overflow: auto !important; } img[class="lp-multiline-image"] { width: 100% !important; height: auto !important; margin: 0 !important; } } </mj-style>
+    <mj-style inline="inline"> h1 { font-family: Poppins; font-size: 28px; font-weight: 700; line-height: 34px; } h2 { font-family: Poppins; font-size: 24px; font-weight: 700; line-height: 30px; } h3 { font-family: Poppins; font-size: 18px; font-weight: 700; line-height: 22px; } h4 { font-family: Poppins; font-size: 18px; font-weight: 700; line-height: 24px; } h5 { font-family: Poppins; font-size: 18px; font-weight: 700; line-height: 24px; } h6 { font-family: Poppins; font-size: 16px; font-weight: 700; line-height: 24px; } </mj-style>
+    <mj-style> H1, H2, H3, H4, H5, H6 { margin: 0 !important; padding: 0 !important; } a:-webkit-any-link, a:link { color: inherit } a { color: #ffffff !important; } .cta-button a { color: #ffffff !important; } a[x-apple-data-detectors] { color: #ffffff !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } u + #body a { color: #ffffff !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } #MessageViewBody a { color: #ffffff !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } .cta-button td a[x-apple-data-detectors] { color: #ffffff !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } u + #body .cta-button td a { color: #ffffff !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } #MessageViewBody .cta-button td a { color: #ffffff !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } @media screen and (max-width:700px) { .inline-image { display: block !important; float: none !important; max-width: 100% !important; } table[class="lp-image-wrapper"] { width:100% !important; } td[class="lp-image-wrapper-h"] { display: none !important; } td[class="lp-image-wrapper-img"] { display: block !important; width: 100% !important; overflow: auto !important; } img[class="lp-multiline-image"] { width: 100% !important; height: auto !important; margin: 0 !important; } } </mj-style>
     <mj-breakpoint width="700px" />
   </mj-head>
-  <mj-body background-color="#f2f4f6" width="700px">
+  <mj-body background-color="#f5f5fb" width="700px">
     <mj-raw>
       <lp-layout lp-label="Weblink">
     </mj-raw>
-    <mj-section background-color="#233971" padding="0px 24px 0px 24px">
+    <mj-section full-width="full-width" background-color="#f5f5fb" padding="0px 24px 0px 24px">
       <mj-group>
         <mj-column padding="16px 0px 16px 0px" vertical-align="top">
-          <mj-text color="#ffffff" font-size="12px" font-family="Barlow, Arial" font-weight="400" line-height="16px" align="left" text-decoration="none">
+          <mj-text color="#010a15" font-size="12px" font-family="Poppins" font-weight="400" line-height="16px" align="left" text-decoration="none">
             <lp-singleline lp-label="Korte beschrijving"> Een korte beschrijving van de nieuwsbrief</lp-singleline>
           </mj-text>
         </mj-column>
         <mj-column padding="16px 0px 16px 0px" vertical-align="top">
-          <mj-text color="#ffffff" font-size="12px" font-family="Barlow, Arial" font-weight="400" line-height="16px" align="right" text-decoration="underline">
+          <mj-text color="#010a15" font-size="12px" font-family="Poppins" font-weight="700" line-height="16px" align="right" text-decoration="none">
             <lp-singleline lp-label="Webversie">
-              <lp-webversion> Bekijk de webversie</lp-webversion>
+              <lp-webversion>Bekijk de webversie</lp-webversion>
             </lp-singleline>
           </mj-text>
         </mj-column>
@@ -39,52 +36,41 @@
     <mj-raw>
       </lp-layout>
     </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="Logo">
-    </mj-raw>
-    <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
-      <mj-column padding="24px 0px 24px 0px" vertical-align="middle">
-        <mj-image src="./images/I136_840_79_219_52_69.png" alt="" css-class="lp-logo" align="center" width="236px">
+    <mj-section full-width="full-width" background-color="#ffffff" padding="0px 24px 0px 24px">
+      <mj-group>
+        <mj-column padding="24px 0px 24px 0px" vertical-align="bottom">
+          <mj-image src="./images/I4003_2126_6002_3643_52_69.png" alt="" align="left" width="325px">
+          </mj-image>
+        </mj-column>
+        <mj-column vertical-align="bottom">
+          <mj-image src="./images/I4003_2126_6002_4266_52_69.png" alt="" align="center" width="100px">
+          </mj-image>
+        </mj-column>
+        <mj-column padding="24px 0px 24px 0px" vertical-align="bottom">
+          <mj-image src="./images/I4003_2126_6002_3877_52_69.png" alt="" align="left" width="217.33334350585938px">
+          </mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section full-width="full-width" background-color="#234793">
+      <mj-column vertical-align="bottom">
+        <mj-image src="./images/I4003_2126_6004_4419_52_69.png" alt="" align="center" width="100px">
         </mj-image>
       </mj-column>
     </mj-section>
-    <mj-raw>
-      </lp-layout>
-    </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="Hero">
-    </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 24px 0px 24px">
-      <mj-column vertical-align="top">
-        <mj-text padding="0px 0px 16px 0px" color="#233971" font-size="32px" font-family="Barlow, Arial" font-weight="700" line-height="48px" text-transform="uppercase" align="left" text-decoration="none">
-          <lp-singleline> Titel: Solutions in textiles</lp-singleline>
+    <mj-section full-width="full-width" background-color="#234793">
+      <mj-column padding="8px 0px 8px 0px" vertical-align="bottom">
+        <mj-text color="#ffffff" font-size="16px" font-family="Poppins" font-weight="700" line-height="24px" align="center" text-decoration="none">
+          <lp-singleline> EUROPEES NIEUWS VOOR DECENTRALE OVERHEDEN</lp-singleline>
         </mj-text>
-        <mj-image src="./images/I136_841_79_239_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="652px">
-        </mj-image>
       </mj-column>
     </mj-section>
     <mj-raw>
-      </lp-layout>
+      <lp-layout lp-label="Hero afbeelding">
     </mj-raw>
     <mj-raw>
-      <lp-layout lp-label="Inhoudsopgave">
+      <img src="./images/I6038_936_79_239_30_297.png" alt="" border="0" width="100%" style="width:100%; max-width:100%; display:block; margin: 0 auto;" lp-edit />
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="24px 24px 0px 24px">
-      <mj-column vertical-align="top">
-        <mj-text padding="0px 0px 16px 0px" color="#233971" font-size="28px" font-family="Barlow, Arial" font-weight="700" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
-          <H2>
-            <lp-singleline lp-label="Titel"> Inhouds:</lp-singleline>
-          </H2>
-        </mj-text>
-        <mj-text padding="0px 0px 4px 0px" color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-singleline>
-            <lp-toc lp-bullet-padding-right="16" lp-bullet-padding-left="1"></lp-toc>
-          </lp-singleline>
-        </mj-text>
-        <mj-spacer height="24px">
-        </mj-spacer>
-      </mj-column>
-    </mj-section>
     <mj-raw>
       </lp-layout>
     </mj-raw>
@@ -92,13 +78,13 @@
       <lp-repeater>
     </mj-raw>
     <mj-raw>
-      <lp-layout lp-label="H1">
+      <lp-layout lp-label="[H1] Titel">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
+    <mj-section background-color="#f5f5fb" padding="48px 24px 16px 24px">
       <mj-column vertical-align="middle">
-        <mj-text color="#233971" font-size="32px" font-family="Barlow, Arial" font-weight="700" line-height="40px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text color="#0d366e" font-size="28px" font-family="Poppins" font-weight="700" line-height="34px" align="center" text-decoration="none">
           <H1>
-            <lp-singleline lp-label="Titel"> [H1] titel - eenmalig gebruiken</lp-singleline>
+            <lp-singleline> [H1] Titel - eenmalig gebruiken</lp-singleline>
           </H1>
         </mj-text>
       </mj-column>
@@ -107,13 +93,26 @@
       </lp-layout>
     </mj-raw>
     <mj-raw>
-      <lp-layout lp-label="H1">
+      <lp-layout lp-label="Intro tekst">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
+    <mj-section background-color="#f5f5fb" padding="0px 48px 48px 48px">
       <mj-column vertical-align="middle">
-        <mj-text color="#233971" font-size="28px" font-family="Barlow, Arial" font-weight="700" line-height="34px" text-transform="uppercase" align="left" text-decoration="none">
+        <mj-text color="#0d366e" font-size="16px" font-family="Poppins" font-weight="700" line-height="24px" align="center" text-decoration="none">
+          <lp-multiline lp-label="Titel"> [Introtekst] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</lp-multiline>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      </lp-layout>
+    </mj-raw>
+    <mj-raw>
+      <lp-layout lp-label="[H2] Titel">
+    </mj-raw>
+    <mj-section background-color="#0d366e" padding="16px 24px 16px 24px">
+      <mj-column vertical-align="middle">
+        <mj-text color="#ffffff" font-size="24px" font-family="Poppins" font-weight="700" line-height="30px" align="left" text-decoration="none">
           <H2>
-            <lp-singleline lp-label="Titel"> [H2] Substitel</lp-singleline>
+            <lp-singleline> [H2] Titel</lp-singleline>
           </H2>
         </mj-text>
       </mj-column>
@@ -122,98 +121,80 @@
       </lp-layout>
     </mj-raw>
     <mj-raw>
-      <lp-layout lp-label="Tekstblok + button">
+      <lp-layout lp-label="Artikel">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
-      <mj-column vertical-align="middle">
-        <mj-text padding="0px 0px 16px 0px" color="#233971" font-size="24px" font-family="Barlow, Arial" font-weight="700" line-height="28px" text-transform="uppercase" align="left" text-decoration="none">
-          <H3>
-            <lp-singleline lp-label="Titel"> Subtitel tekstblok</lp-singleline>
-          </H3>
-        </mj-text>
-        <mj-text color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      </lp-layout>
-    </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="Tekstblok + afbeelding en button">
-    </mj-raw>
-    <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
-      <mj-column vertical-align="middle">
-        <mj-text padding="0px 0px 16px 0px" color="#233971" font-size="24px" font-family="Barlow, Arial" font-weight="700" line-height="28px" text-transform="uppercase" align="left" text-decoration="none">
-          <H3>
-            <lp-singleline lp-label="Titel"> Subtitel tekstblok</lp-singleline>
-          </H3>
-        </mj-text>
-        <mj-image src="./images/I114_344_114_340_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="652px">
-        </mj-image>
-        <mj-text padding="24px 0px 0px 0px" color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      </lp-layout>
-    </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="Tekstblok + afbeelding inline rechts">
-    </mj-raw>
-    <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
-      <mj-column vertical-align="middle">
-        <mj-text padding="0px 0px 16px 0px" color="#233971" font-size="24px" font-family="Barlow, Arial" font-weight="700" line-height="28px" text-transform="uppercase" align="left" text-decoration="none">
-          <H3>
-            <lp-singleline lp-label="Titel"> Subtitel tekstblok</lp-singleline>
-          </H3>
-        </mj-text>
-        <mj-text color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Content"><img class="inline-image" src="./images/I117_1052_115_1035_37_172_37_110.png" width="322" height="110" align="right" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      </lp-layout>
-    </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="Tekstblok + afbeelding inline links">
-    </mj-raw>
-    <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
-      <mj-column vertical-align="middle">
-        <mj-text padding="0px 0px 16px 0px" color="#233971" font-size="24px" font-family="Barlow, Arial" font-weight="700" line-height="28px" text-transform="uppercase" align="left" text-decoration="none">
-          <H3>
-            <lp-singleline lp-label="Titel"> Subtitel tekstblok</lp-singleline>
-          </H3>
-        </mj-text>
-        <mj-text color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Content"><img class="inline-image" src="./images/I117_1136_117_1080_37_116_37_110.png" width="322" height="110" align="left" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      </lp-layout>
-    </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="Tekstblok + afbeelding horizontaal">
-    </mj-raw>
-    <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
-      <mj-column width="200px" vertical-align="top">
-        <mj-image src="./images/I119_1508_119_1479_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="200px">
+    <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
+      <mj-column width="170px" vertical-align="top">
+        <mj-image src="./images/I6038_946_6013_662_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" border-radius="8px" width="170px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
         <mj-spacer height="16px">
         </mj-spacer>
       </mj-column>
-      <mj-column width="436px" vertical-align="top">
-        <mj-text padding="0px 0px 8px 0px" color="#233971" font-size="20px" font-family="Barlow, Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
-          <H4>
-            <lp-singleline lp-label="Titel"> Subtitel tekstblok</lp-singleline>
-          </H4>
+      <mj-column width="466px" vertical-align="top">
+        <mj-raw>
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+            <tbody>
+              <tr>
+                <td align="left" width="1" style="background:#ffca00;font-size:0;padding:2px 4px;word-break:break-word;border-radius:4px">
+                  <div style="color:#0d366e;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none;white-space:nowrap">
+                    <lp-singleline lp-label="Badge">KED</lp-singleline>
+                  </div>
+                </td>
+                <td width="10" style="width:10px;max-width:10px;">&nbsp;</td>
+                <td align="left" style="font-size:0;padding:0;word-break:break-word">
+                  <div style="color:#0075bf;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none">
+                    <lp-singleline lp-label="Titel">Categorie</lp-singleline>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </mj-raw>
+        <mj-text padding="8px 0px 8px 0px" color="#0d366e" font-size="18px" font-family="Poppins" font-weight="700" line-height="22px" align="left" text-decoration="none">
+          <H3>
+            <lp-singleline lp-label="Titel"> Titel nieuwsbericht </lp-singleline>
+          </H3>
         </mj-text>
-        <mj-text color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text color="#010a15" font-size="14px" font-family="Poppins" font-weight="400" line-height="18px" align="left" text-decoration="none">
+          <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida pulvinar turpis nec tempus. Mauris eu ante eget libero egestas cursus id dignissim enim. Phasellus et leo id leo dignissim hendrerit. Mauris efficitur nibh eu sapien ullamcorper, id consectetur dolor malesuada. Pellentesque et finibus dui. In sodales tempor nulla, at ultricies sapien tempus elementum. Maecenas consequat in.</lp-multiline>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      </lp-layout>
+    </mj-raw>
+    <mj-raw>
+      <lp-layout lp-label="Tekstblok">
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
+      <mj-column vertical-align="middle">
+        <mj-raw>
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="margin-bottom:8px">
+            <tbody>
+              <tr>
+                <td align="left" width="1" style="background:#ffca00;font-size:0;padding:2px 4px;word-break:break-word;border-radius:4px">
+                  <div style="color:#0d366e;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none;white-space:nowrap">
+                    <lp-singleline lp-label="Badge">KED</lp-singleline>
+                  </div>
+                </td>
+                <td width="10" style="width:10px;max-width:10px;">&nbsp;</td>
+                <td align="left" style="font-size:0;padding:0;word-break:break-word">
+                  <div style="color:#0075bf;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none">
+                    <lp-singleline lp-label="Titel">Categorie</lp-singleline>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </mj-raw>
+        <mj-text padding="0px 0px 24px 0px" color="#0d366e" font-size="24px" font-family="Poppins" font-weight="700" line-height="30px" align="left" text-decoration="none">
+          <H2>
+            <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
+          </H2>
+        </mj-text>
+        <mj-text color="#010a15" font-size="16px" font-family="Poppins" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
       </mj-column>
@@ -222,29 +203,37 @@
       </lp-layout>
     </mj-raw>
     <mj-raw>
-      <lp-layout lp-label="Tekstblok + afbeelding horizontaal met button">
+      <lp-layout lp-label="Tekstblok met afbeelding">
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
-      <mj-column width="200px" vertical-align="top">
-        <mj-image src="./images/I4003_1597_4003_1562_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="200px">
-        </mj-image>
-      </mj-column>
-      <mj-column width="16px" vertical-align="top">
-        <mj-spacer height="16px">
-        </mj-spacer>
-      </mj-column>
-      <mj-column width="436px" vertical-align="top">
-        <mj-text padding="0px 0px 8px 0px" color="#233971" font-size="20px" font-family="Barlow, Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
-          <H4>
-            <lp-singleline lp-label="Titel"> Subtitel tekstblok</lp-singleline>
-          </H4>
+      <mj-column vertical-align="middle">
+        <mj-raw>
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="margin-bottom:8px">
+            <tbody>
+              <tr>
+                <td align="left" width="1" style="background:#ffca00;font-size:0;padding:2px 4px;word-break:break-word;border-radius:4px">
+                  <div style="color:#0d366e;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none;white-space:nowrap">
+                    <lp-singleline lp-label="Badge">KED</lp-singleline>
+                  </div>
+                </td>
+                <td width="10" style="width:10px;max-width:10px;">&nbsp;</td>
+                <td align="left" style="font-size:0;padding:0;word-break:break-word">
+                  <div style="color:#0075bf;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none">
+                    <lp-singleline lp-label="Titel">Categorie</lp-singleline>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </mj-raw>
+        <mj-text padding="0px 0px 24px 0px" color="#0d366e" font-size="24px" font-family="Poppins" font-weight="700" line-height="30px" align="left" text-decoration="none">
+          <H2>
+            <lp-singleline lp-label="Titel"> Tekstblok met afbeelding</lp-singleline>
+          </H2>
         </mj-text>
-        <mj-text padding="0px 0px 8px 0px" color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
+        <mj-text color="#010a15" font-size="16px" font-family="Poppins" font-weight="400" line-height="24px" align="left" text-decoration="none">
+          <lp-multiline lp-label="Tekstblok"><img class="inline-image" src="./images/I117_1052_115_1035_37_172_37_110.png" width="322" height="110" align="right" hspace="10" vspace="10" lp-edit lp-resizable /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis, metus non pretium interdum, orci urna euismod ex, elementum volutpat mi neque at quam. Sed congue tincidunt lorem, sit amet egestas neque egestas in. Duis varius sit amet magna ut porta. Proin quis euismod metus, id mollis lacus. Donec ultrices leo auctor ligula vehicula, eu aliquet sapien sodales. Suspendisse blandit ipsum eu urna egestas porta. Nulla sed eleifend ex. Fusce consectetur ornare risus, eget porta nunc malesuada nec.</lp-multiline>
         </mj-text>
-        <mj-button background-color="#233971" inner-padding="8px 16px 8px 16px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Barlow, Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com" css-class="cta-button">
-          <lp-singleline lp-label="Button">Lees verder</lp-singleline>
-        </mj-button>
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -253,9 +242,9 @@
     <mj-raw>
       <lp-layout lp-label="Afbeelding">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
+    <mj-section background-color="#ffffff">
       <mj-column vertical-align="top">
-        <mj-image src="./images/I4003_1343_41_255_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="652px">
+        <mj-image src="./images/I120_1643_41_255_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="700px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -263,12 +252,51 @@
       </lp-layout>
     </mj-raw>
     <mj-raw>
-      <lp-layout lp-label="Button">
+      <lp-layout lp-label="Knop - Blauw">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="0px 24px 16px 24px">
+    <mj-section background-color="#ffffff" padding="16px 16px 16px 16px">
       <mj-column vertical-align="middle">
-        <mj-button background-color="#233971" inner-padding="8px 16px 8px 16px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Barlow, Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com" css-class="cta-button">
-          <lp-singleline lp-label="Button">Lees verder</lp-singleline>
+        <mj-button background-color="#0d366e" inner-padding="16px 24px 16px 24px" border-radius="4px" color="#ffffff" font-size="16px" font-family="Poppins" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com" css-class="cta-button">
+          <lp-singleline>Klik hier</lp-singleline>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      </lp-layout>
+    </mj-raw>
+    <mj-raw>
+      <lp-layout lp-label="Knop - Blauw - Gecentreerd">
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="16px 16px 16px 16px">
+      <mj-column vertical-align="middle">
+        <mj-button background-color="#0d366e" inner-padding="16px 24px 16px 24px" border-radius="4px" color="#ffffff" font-size="16px" font-family="Poppins" font-weight="700" line-height="20px" align="center" text-decoration="none" href="https://google.com" css-class="cta-button">
+          <lp-singleline>Klik hier</lp-singleline>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      </lp-layout>
+    </mj-raw>
+    <mj-raw>
+      <lp-layout lp-label="Knop - Geel">
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="16px 16px 16px 16px">
+      <mj-column vertical-align="middle">
+        <mj-button background-color="#ffca00" inner-padding="16px 24px 16px 24px" border-radius="4px" color="#0d366e" font-size="16px" font-family="Poppins" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com" css-class="cta-button geel">
+          <lp-singleline>Klik hier</lp-singleline>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      </lp-layout>
+    </mj-raw>
+    <mj-raw>
+      <lp-layout lp-label="Knop - Geel - Gecentreerd">
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="16px 16px 16px 16px">
+      <mj-column vertical-align="middle">
+        <mj-button background-color="#ffca00" inner-padding="16px 24px 16px 24px" border-radius="4px" color="#0d366e" font-size="16px" font-family="Poppins" font-weight="700" line-height="20px" align="center" text-decoration="none" href="https://google.com" css-class="cta-button geel">
+          <lp-singleline>Klik hier</lp-singleline>
         </mj-button>
       </mj-column>
     </mj-section>
@@ -280,12 +308,33 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column width="318px" vertical-align="top">
-        <mj-text padding="0px 0px 8px 0px" color="#233971" font-size="20px" font-family="Barlow, Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
-          <H4>
+        <mj-raw>
+          <td>
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="margin-bottom:8px">
+              <tbody>
+                <tr>
+                  <td align="left" width="1" style="background:#ffca00;font-size:0;padding:2px 4px;word-break:break-word;border-radius:4px">
+                    <div style="color:#0d366e;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none;white-space:nowrap">
+                      <lp-singleline lp-label="Badge">KED</lp-singleline>
+                    </div>
+                  </td>
+                  <td width="10" style="width:10px;max-width:10px;">&nbsp;</td>
+                  <td align="left" style="font-size:0;padding:0;word-break:break-word">
+                    <div style="color:#0075bf;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none">
+                      <lp-singleline lp-label="Titel">Categorie</lp-singleline>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </mj-raw>
+        <mj-text padding="0px 0px 8px 0px" color="#0d366e" font-size="18px" font-family="Poppins" font-weight="700" line-height="22px" align="left" text-decoration="none">
+          <H3>
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
-          </H4>
+          </H3>
         </mj-text>
-        <mj-text color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text color="#010a15" font-size="14px" font-family="Poppins" font-weight="400" line-height="18px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
       </mj-column>
@@ -294,12 +343,33 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="318px" vertical-align="top">
-        <mj-text padding="0px 0px 8px 0px" color="#233971" font-size="20px" font-family="Barlow, Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
-          <H4>
+        <mj-raw>
+          <td>
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="margin-bottom:8px">
+              <tbody>
+                <tr>
+                  <td align="left" width="1" style="background:#ffca00;font-size:0;padding:2px 4px;word-break:break-word;border-radius:4px">
+                    <div style="color:#0d366e;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none;white-space:nowrap">
+                      <lp-singleline lp-label="Badge">KED</lp-singleline>
+                    </div>
+                  </td>
+                  <td width="10" style="width:10px;max-width:10px;">&nbsp;</td>
+                  <td align="left" style="font-size:0;padding:0;word-break:break-word">
+                    <div style="color:#0075bf;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none">
+                      <lp-singleline lp-label="Titel">Categorie</lp-singleline>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </mj-raw>
+        <mj-text padding="0px 0px 8px 0px" color="#0d366e" font-size="18px" font-family="Poppins" font-weight="700" line-height="22px" align="left" text-decoration="none">
+          <H3>
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
-          </H4>
+          </H3>
         </mj-text>
-        <mj-text color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text color="#010a15" font-size="14px" font-family="Poppins" font-weight="400" line-height="18px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
       </mj-column>
@@ -308,56 +378,39 @@
       </lp-layout>
     </mj-raw>
     <mj-raw>
-      <lp-layout lp-label="2 kolommen - Tekstblok + button">
+      <lp-layout lp-label="2 kolommen - Afbeelding + tekstblok">
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
       <mj-column width="318px" vertical-align="top">
-        <mj-text padding="0px 0px 8px 0px" color="#233971" font-size="20px" font-family="Barlow, Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
-          <H4>
-            <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
-          </H4>
-        </mj-text>
-        <mj-text padding="0px 0px 8px 0px" color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
-        </mj-text>
-        <mj-button background-color="#233971" inner-padding="8px 16px 8px 16px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Barlow, Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com" css-class="cta-button">
-          <lp-singleline lp-label="Button">Lees verder</lp-singleline>
-        </mj-button>
-      </mj-column>
-      <mj-column width="16px" vertical-align="top">
-        <mj-spacer height="16px">
-        </mj-spacer>
-      </mj-column>
-      <mj-column width="318px" vertical-align="top">
-        <mj-text padding="0px 0px 8px 0px" color="#233971" font-size="20px" font-family="Barlow, Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
-          <H4>
-            <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
-          </H4>
-        </mj-text>
-        <mj-text padding="0px 0px 8px 0px" color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
-        </mj-text>
-        <mj-button background-color="#233971" inner-padding="8px 16px 8px 16px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Barlow, Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com" css-class="cta-button">
-          <lp-singleline lp-label="Button">Lees verder</lp-singleline>
-        </mj-button>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      </lp-layout>
-    </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="2 kolommen - Tekstblok + afbeelding">
-    </mj-raw>
-    <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
-      <mj-column width="318px" vertical-align="top">
-        <mj-image src="./images/I117_1372_4003_1379_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
+        <mj-image src="./images/I117_1372_117_1334_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" border-radius="8px" width="318px">
         </mj-image>
-        <mj-text padding="16px 0px 8px 0px" color="#233971" font-size="20px" font-family="Barlow, Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
-          <H4>
+        <mj-raw>
+          <td>
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="margin-bottom:8px;margin-top:16px">
+              <tbody>
+                <tr>
+                  <td align="left" width="1" style="background:#ffca00;font-size:0;padding:2px 4px;word-break:break-word;border-radius:4px">
+                    <div style="color:#0d366e;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none;white-space:nowrap">
+                      <lp-singleline lp-label="Badge">KED</lp-singleline>
+                    </div>
+                  </td>
+                  <td width="10" style="width:10px;max-width:10px;">&nbsp;</td>
+                  <td align="left" style="font-size:0;padding:0;word-break:break-word">
+                    <div style="color:#0075bf;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none">
+                      <lp-singleline lp-label="Titel">Categorie</lp-singleline>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </mj-raw>
+        <mj-text padding="0px 0px 8px 0px" color="#0d366e" font-size="18px" font-family="Poppins" font-weight="700" line-height="22px" align="left" text-decoration="none">
+          <H3>
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
-          </H4>
+          </H3>
         </mj-text>
-        <mj-text color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text color="#010a15" font-size="14px" font-family="Poppins" font-weight="400" line-height="18px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
       </mj-column>
@@ -366,58 +419,37 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./images/I117_1372_4003_1385_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
+        <mj-image src="./images/I117_1372_117_1358_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" border-radius="8px" width="318px">
         </mj-image>
-        <mj-text padding="16px 0px 8px 0px" color="#233971" font-size="20px" font-family="Barlow, Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
-          <H4>
+        <mj-raw>
+          <td>
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="margin-bottom:8px;margin-top:16px">
+              <tbody>
+                <tr>
+                  <td align="left" width="1" style="background:#ffca00;font-size:0;padding:2px 4px;word-break:break-word;border-radius:4px">
+                    <div style="color:#0d366e;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none;white-space:nowrap">
+                      <lp-singleline lp-label="Badge">KED</lp-singleline>
+                    </div>
+                  </td>
+                  <td width="10" style="width:10px;max-width:10px;">&nbsp;</td>
+                  <td align="left" style="font-size:0;padding:0;word-break:break-word">
+                    <div style="color:#0075bf;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none">
+                      <lp-singleline lp-label="Titel">Categorie</lp-singleline>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </mj-raw>
+        <mj-text padding="0px 0px 8px 0px" color="#0d366e" font-size="18px" font-family="Poppins" font-weight="700" line-height="22px" align="left" text-decoration="none">
+          <H3>
             <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
-          </H4>
+          </H3>
         </mj-text>
-        <mj-text color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
+        <mj-text color="#010a15" font-size="14px" font-family="Poppins" font-weight="400" line-height="18px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
         </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      </lp-layout>
-    </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="2 kolommen - Tekstblok + afbeelding en button">
-    </mj-raw>
-    <mj-section background-color="#ffffff" padding="24px 24px 24px 24px">
-      <mj-column width="318px" vertical-align="top">
-        <mj-image src="./images/I4003_1485_117_1334_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
-        </mj-image>
-        <mj-text padding="16px 0px 8px 0px" color="#233971" font-size="20px" font-family="Barlow, Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
-          <H4>
-            <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
-          </H4>
-        </mj-text>
-        <mj-text padding="0px 0px 8px 0px" color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
-        </mj-text>
-        <mj-button background-color="#233971" inner-padding="8px 16px 8px 16px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Barlow, Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com" css-class="cta-button">
-          <lp-singleline lp-label="Button">Lees verder</lp-singleline>
-        </mj-button>
-      </mj-column>
-      <mj-column width="16px" vertical-align="top">
-        <mj-spacer height="16px">
-        </mj-spacer>
-      </mj-column>
-      <mj-column width="318px" vertical-align="top">
-        <mj-image src="./images/I4003_1485_117_1358_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="318px">
-        </mj-image>
-        <mj-text padding="16px 0px 8px 0px" color="#233971" font-size="20px" font-family="Barlow, Arial" font-weight="700" line-height="28px" align="left" text-decoration="none">
-          <H4>
-            <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
-          </H4>
-        </mj-text>
-        <mj-text padding="0px 0px 8px 0px" color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
-        </mj-text>
-        <mj-button background-color="#233971" inner-padding="8px 16px 8px 16px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Barlow, Arial" font-weight="700" line-height="20px" align="left" text-decoration="none" href="https://google.com" css-class="cta-button">
-          <lp-singleline lp-label="Button">Lees verder</lp-singleline>
-        </mj-button>
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -426,9 +458,9 @@
     <mj-raw>
       <lp-layout lp-label="2 kolommen - Afbeelding">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
+    <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./images/I120_1655_119_1595_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="318px">
+        <mj-image src="./images/I120_1655_119_1595_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="318px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -436,7 +468,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="318px" vertical-align="top">
-        <mj-image src="./images/I120_1655_119_1599_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="318px">
+        <mj-image src="./images/I120_1655_119_1599_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="318px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -446,9 +478,9 @@
     <mj-raw>
       <lp-layout lp-label="3 kolommen - Afbeelding">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
+    <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
       <mj-column width="206.6666717529297px" vertical-align="top">
-        <mj-image src="./images/I120_1649_119_1624_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.6666717529297px">
+        <mj-image src="./images/I120_1649_119_1624_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="206.6666717529297px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -456,7 +488,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="206.66665649414062px" vertical-align="top">
-        <mj-image src="./images/I120_1649_119_1628_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.66665649414062px">
+        <mj-image src="./images/I120_1649_119_1628_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="206.66665649414062px">
         </mj-image>
       </mj-column>
       <mj-column width="16px" vertical-align="top">
@@ -464,7 +496,7 @@
         </mj-spacer>
       </mj-column>
       <mj-column width="206.66665649414062px" vertical-align="top">
-        <mj-image src="./images/I120_1649_119_1637_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" width="206.66665649414062px">
+        <mj-image src="./images/I120_1649_119_1637_30_297.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="center" border-radius="8px" width="206.66665649414062px">
         </mj-image>
       </mj-column>
     </mj-section>
@@ -472,77 +504,47 @@
       </lp-layout>
     </mj-raw>
     <mj-raw>
-      <lp-layout lp-label="Gekleurd tekstblok - Primair">
+      <lp-layout lp-label="Call-to-action">
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
-      <mj-column background-color="#233971" padding="24px 24px 24px 24px" vertical-align="middle">
-        <mj-text padding="0px 0px 16px 0px" color="#f8f9fa" font-size="24px" font-family="Barlow, Arial" font-weight="700" line-height="28px" text-transform="uppercase" align="left" text-decoration="none">
-          <H3>
-            <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
-          </H3>
+    <mj-section background-color="#f5f5fb" padding="48px 48px 48px 48px">
+      <mj-column padding="24px 0px 0px 0px" vertical-align="middle">
+        <mj-raw>
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="margin-bottom:8px;margin-top:16px; text-align:center;">
+            <tbody>
+              <tr>
+                <td align="center">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="display:inline-block; text-align:left;">
+                    <tbody>
+                      <tr>
+                        <td align="left" width="1" style="background:#ffca00;font-size:0;padding:2px 4px;word-break:break-word;border-radius:4px">
+                          <div style="color:#0d366e;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none;white-space:nowrap">
+                            <lp-singleline lp-label="Badge">KED</lp-singleline>
+                          </div>
+                        </td>
+                        <td width="10" style="width:10px;max-width:10px;">&nbsp;</td>
+                        <td align="left" style="font-size:0;padding:0;word-break:break-word">
+                          <div style="color:#0075bf;font-family:Poppins;font-size:14px;font-weight:700;line-height:16px;text-align:left;text-decoration:none">
+                            <lp-singleline lp-label="Titel">Categorie</lp-singleline>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </mj-raw>
+        <mj-text padding="0px 0px 8px 0px" color="#0d366e" font-size="24px" font-family="Poppins" font-weight="700" line-height="30px" align="center" text-decoration="none">
+          <H2>
+            <lp-singleline lp-label="Titel"> Titel</lp-singleline>
+          </H2>
         </mj-text>
-        <mj-text color="#f8f9fa" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</lp-multiline>
+        <mj-text padding="0px 0px 16px 0px" color="#010a15" font-size="16px" font-family="Poppins" font-weight="400" line-height="24px" align="center" text-decoration="none">
+          <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique, arcu ut consectetur ultricies, purus felis vestibulum erat, laoreet pharetra dolor diam sed diam. Vestibulum volutpat dolor at lorem varius volutpat. Pellentesque lacinia varius efficitur. Aenean mollis.</lp-multiline>
         </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      </lp-layout>
-    </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="Gekleurd tekstblok - Grijs">
-    </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
-      <mj-column background-color="#dee1ea" padding="24px 24px 24px 24px" vertical-align="middle">
-        <mj-text padding="0px 0px 16px 0px" color="#233971" font-size="24px" font-family="Barlow, Arial" font-weight="700" line-height="28px" text-transform="uppercase" align="left" text-decoration="none">
-          <H3>
-            <lp-singleline lp-label="Titel"> Lorem ipsum dolor sit amet.</lp-singleline>
-          </H3>
-        </mj-text>
-        <mj-text color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</lp-multiline>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      </lp-layout>
-    </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="Gekleurd blok met button - Primair">
-    </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
-      <mj-column background-color="#233971" padding="24px 24px 24px 24px" vertical-align="middle">
-        <mj-text padding="0px 0px 24px 0px" color="#f8f9fa" font-size="24px" font-family="Barlow, Arial" font-weight="700" line-height="28px" text-transform="uppercase" align="center" text-decoration="none">
-          <H3>
-            <lp-singleline lp-label="Titel"> Gekleurd tekstblok</lp-singleline>
-          </H3>
-        </mj-text>
-        <mj-text padding="0px 0px 16px 0px" color="#f8f9fa" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="center" text-decoration="none">
-          <lp-multiline lp-label="Titel"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
-        </mj-text>
-        <mj-button background-color="#f8f9fa" inner-padding="8px 16px 8px 16px" border-radius="8px" color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="700" line-height="20px" align="center" text-decoration="none" href="https://google.com" css-class="cta-button text-dark">
-          <lp-singleline>Lees verder</lp-singleline>
-        </mj-button>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      </lp-layout>
-    </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="Gekleurd blok met button - Grijs">
-    </mj-raw>
-    <mj-section background-color="#ffffff" padding="16px 24px 16px 24px">
-      <mj-column background-color="#dee1ea" padding="24px 24px 24px 24px" vertical-align="middle">
-        <mj-text padding="0px 0px 24px 0px" color="#233971" font-size="24px" font-family="Barlow, Arial" font-weight="700" line-height="28px" text-transform="uppercase" align="center" text-decoration="none">
-          <H3>
-            <lp-singleline lp-label="Titel"> Gekleurd tekstblok</lp-singleline>
-          </H3>
-        </mj-text>
-        <mj-text padding="0px 0px 16px 0px" color="#233971" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="center" text-decoration="none">
-          <lp-multiline lp-label="Titel"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</lp-multiline>
-        </mj-text>
-        <mj-button background-color="#233971" inner-padding="8px 16px 8px 16px" border-radius="8px" color="#ffffff" font-size="16px" font-family="Barlow, Arial" font-weight="700" line-height="20px" align="center" text-decoration="none" href="https://google.com" css-class="cta-button">
-          <lp-singleline>Lees verder</lp-singleline>
+        <mj-button background-color="#0d366e" inner-padding="16px 24px 16px 24px" border-radius="4px" color="#ffffff" font-size="16px" font-family="Poppins" font-weight="700" line-height="20px" align="center" text-decoration="none" href="https://google.com" css-class="cta-button">
+          <lp-singleline>Klik hier</lp-singleline>
         </mj-button>
       </mj-column>
     </mj-section>
@@ -554,7 +556,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
       <mj-column vertical-align="middle">
-        <mj-divider border-width="1px" border-color="#233971" padding="16px 0px 16px 0px" width="100%">
+        <mj-divider border-width="1px" border-color="#dee2e6" padding="16px 0px 16px 0px" width="100%">
         </mj-divider>
       </mj-column>
     </mj-section>
@@ -566,7 +568,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
       <mj-column vertical-align="middle">
-        <mj-spacer height="16px">
+        <mj-spacer height="24px">
         </mj-spacer>
       </mj-column>
     </mj-section>
@@ -576,47 +578,42 @@
     <mj-raw>
       </lp-repeater>
     </mj-raw>
-    <mj-wrapper full-width="full-width" background-color="#233971" padding="24px 24px 24px 24px">
-      <mj-section>
-        <mj-column>
-          <mj-image src="./images/I2003_937_4002_441_2004_984.png" alt="" css-class="lp-edit" fluid-on-mobile="true" align="left" width="325px">
-          </mj-image>
-        </mj-column>
-      </mj-section>
-      <mj-section>
-        <mj-column width="318px" vertical-align="bottom">
-          <mj-text padding="16px 0px 0px 0px" color="#ffffff" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-            <lp-multiline lp-label="Contactgegevens"> Smellink Group BV De Dennen 13<br /> 7491 HH Delden<br /> The Netherlands<br />
-              <br /> + 31 (0)74 3771000<br /> info@smellink.nl
-            </lp-multiline>
-          </mj-text>
-        </mj-column>
-        <mj-column width="16px" vertical-align="bottom">
-          <mj-spacer height="16px">
-          </mj-spacer>
-        </mj-column>
-        <mj-column width="318px" vertical-align="bottom">
-        </mj-column>
-      </mj-section>
-      <mj-section>
-        <mj-column width="450px" vertical-align="bottom">
-          <mj-text padding="16px 0px 0px 0px" color="#ffffff" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="left" text-decoration="none">
-            <lp-multiline lp-label="Uitschrijven">
-              <lp-unsubscribe>Aan- en afmelden nieuwsbrief</lp-unsubscribe>
-              <lp-editprofile>Gegevens wijzigen</lp-editprofile>
-            </lp-multiline>
-          </mj-text>
-        </mj-column>
-        <mj-column width="16px" vertical-align="bottom">
-          <mj-spacer height="16px">
-          </mj-spacer>
-        </mj-column>
-        <mj-column width="186px" vertical-align="bottom">
-          <mj-text padding="16px 0px 0px 0px" color="#ffffff" font-size="16px" font-family="Barlow, Arial" font-weight="400" line-height="24px" align="right" text-decoration="none">
-            <lp-multiline lp-label="Copyright"> © Smellink Group BV</lp-multiline>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
+    <mj-section full-width="full-width" background-color="#0d366e" padding="24px 24px 16px 24px">
+      <mj-column vertical-align="top">
+        <mj-text color="#ffffff" font-size="18px" font-family="Poppins" font-weight="900" line-height="24px" text-transform="uppercase" align="left" text-decoration="none">
+          <lp-singleline lp-label="Titel"> Contact</lp-singleline>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section full-width="full-width" background-color="#0d366e" padding="0px 24px 0px 24px">
+      <mj-column width="318px" vertical-align="top">
+        <mj-text color="#ffffff" font-size="14px" line-height="18px" align="left" text-decoration="none">
+          <lp-multiline lp-label="Tekstblok"> De Europese Ster is een samenwerking tussen Kenniscentrum Europa Decentraal en het Huis van de Nederlandse Provincies. Heeft u vragen of een tip voor de redactie, neem dan contact met ons op via het e-mailadres: info@europadecentraal.nl<br /><br /><strong>Eindredactie</strong><br /> Kenniscentrum Europa Decentraal: b.tensen@europadecentraal.nl<br /> Huis van de Nederlandse Provincies: corsmit@nl-prov.eu </lp-multiline>
+        </mj-text>
+      </mj-column>
+      <mj-column width="16px" vertical-align="top">
+        <mj-spacer height="16px">
+        </mj-spacer>
+      </mj-column>
+      <mj-column width="318px" vertical-align="top">
+        <mj-text color="#ffffff" font-size="14px" line-height="18px" align="left" text-decoration="none">
+          <lp-multiline lp-label="Tekstblok"> Heeft u bekenden die ook interesse hebben in de Europese Ster? Stuur deze nieuwsbrief dan gerust door of attendeer hen op het <lp-subscribe>gratis en vrijblijvende abonnement!</lp-subscribe>
+          </lp-multiline>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section full-width="full-width" background-color="#0d366e" padding="0px 24px 0px 24px">
+      <mj-column vertical-align="top">
+        <mj-spacer height="24px">
+        </mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-section full-width="full-width" background-color="#0d366e" padding="16px 24px 16px 24px">
+      <mj-column vertical-align="top">
+        <mj-text color="#afbdda" font-size="12px" font-family="Poppins" font-weight="400" line-height="16px" align="center" text-decoration="none">
+          <lp-singleline lp-label="Tekstblok"> Deze e-mail is verstuurd aan {{email}}. Als je geen e-mails meer wilt ontvangen dan kun je je <lp-unsubscribe>hier afmelden</lp-unsubscribe>. Je kunt ook je <lp-editprofile>gegevens inzien en wijzigen</lp-editprofile>. Voeg {{from_email}} toe aan je adresboek voor een betere ontvangst.</lp-singleline>
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
