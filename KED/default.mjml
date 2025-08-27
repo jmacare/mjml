@@ -72,12 +72,14 @@
       </mj-group>
     </mj-section>
     <mj-section full-width="full-width" background-color="#234793">
-      <mj-column padding="24px 0px 24px 0px" vertical-align="top"></mj-column>
-      <mj-column vertical-align="top">
-        <mj-image src="./images/I4003_2126_6004_4419_52_69.png" alt="" align="center" width="100px">
-        </mj-image>
-      </mj-column>
-      <mj-column padding="24px 0px 24px 0px" vertical-align="top"></mj-column>
+      <mj-group>
+        <mj-column vertical-align="top"></mj-column>
+        <mj-column vertical-align="top">
+          <mj-image src="./images/I4003_2126_6004_4419_52_69.png" alt="" align="center" width="100px">
+          </mj-image>
+        </mj-column>
+        <mj-column vertical-align="top"></mj-column>
+      </mj-group>
     </mj-section>
     <mj-section full-width="full-width" background-color="#234793">
       <mj-column padding="8px 0px 8px 0px" vertical-align="bottom">
