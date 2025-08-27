@@ -102,7 +102,7 @@
       <lp-repeater>
     </mj-raw>
     <mj-raw>
-      <lp-layout lp-label="[H1] Titel">
+      <lp-layout lp-label="Titel + introtekst">
     </mj-raw>
     <mj-section background-color="#f5f5fb" padding="48px 24px 16px 24px">
       <mj-column vertical-align="middle">
@@ -113,12 +113,6 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-raw>
-      </lp-layout>
-    </mj-raw>
-    <mj-raw>
-      <lp-layout lp-label="Intro tekst">
-    </mj-raw>
     <mj-section background-color="#f5f5fb" padding="0px 48px 48px 48px">
       <mj-column vertical-align="middle">
         <mj-text color="#0d366e" font-size="16px" font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="700" line-height="24px" align="center" text-decoration="none">
