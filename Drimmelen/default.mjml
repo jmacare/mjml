@@ -638,7 +638,7 @@
           <tr>
             <td width="24px" align="left" style="width:24px; height:24px; vertical-align:middle; max-width:24px;">
               <a href="https://www.facebook.com/drimmelengemeente">
-                <img src="./images/facebook.png" alt="Facebook" height="24" style="display:inline-block; vertical-align:middle;">
+                <img src="./images/facebook.png" alt="Facebook" height="24" style="display:inline-block; vertical-align:middle; width: 24px; max-width: 24px;">
               </a>
             </td>
             <td width="8px" align="left" style="width:8px; height:24px; vertical-align:middle; max-width:8px;">
@@ -646,7 +646,7 @@
             </td>
             <td width="24px" align="left" style="width:24px; height:24px; vertical-align:middle; max-width:24px;">
               <a href="https://www.instagram.com/gemeentedrimmelen">
-                <img src="./images/instagram.png" alt="Instagram" height="24" style="display:inline-block; vertical-align:middle;">
+                <img src="./images/instagram.png" alt="Instagram" height="24" style="display:inline-block; vertical-align:middle; width: 24px; max-width: 24px;">
               </a>
             </td>
             <td width="8px" align="left" style="width:8px; height:24px; vertical-align:middle; max-width:8px;">
@@ -654,7 +654,7 @@
             </td>
             <td width="24px" align="left" style="width:24px; height:24px; vertical-align:middle; max-width:24px;">
               <a href="https://nl.linkedin.com/company/gemeente-drimmelen">
-                <img src="./images/linkedin.png" alt="LinkedIn" height="24" style="display:inline-block; vertical-align:middle;">
+                <img src="./images/linkedin.png" alt="LinkedIn" height="24" style="display:inline-block; vertical-align:middle; width: 24px; max-width: 24px;">
               </a>
             </td>
           </tr>
