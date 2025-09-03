@@ -614,6 +614,11 @@
     <mj-raw>
       </lp-repeater>
     </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="24px" />
+      </mj-column>
+    </mj-section>
     <mj-raw>
       <img src="./images/wave-repeat-x.png" alt="" border="0" width="1000" style="width:100%; max-width:100%; display:block; margin: 0 auto;"/>
     </mj-raw>
