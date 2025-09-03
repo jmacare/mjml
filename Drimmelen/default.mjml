@@ -134,6 +134,15 @@
           }
         }
 
+        @media (prefers-color-scheme:dark) {
+            .dark-mode-hide{
+                display:none!important;
+            }
+            .dark-mode-show{
+                display:block!important;
+            }
+        }
+
 
       </mj-style>
       <mj-breakpoint width="700px" />
@@ -217,7 +226,10 @@
     
     <mj-raw>
       <center style="background-color:#beddfc;">
-        <img src="./images/wave-repeat-x_alt.png" alt="" border="0" width="2000" style="width:100%; max-width:100%; display:block; margin: 0 auto;"/>
+        <img src="./images/wave-repeat-x_alt.png" alt="" border="0" width="2000" style="width:100%; max-width:100%; display:block; margin: 0 auto;" class="dark-mode-hide"/>
+        <!--[if !mso]><!-->
+        <img src="./images/wave-repeat-x_alt-dark.png" alt="" border="0" width="2000" style="width:100%; max-width:100%; display:none; margin: 0 auto;" class="dark-mode-show"/>
+        <!--<![endif]-->
       </center>
     </mj-raw>
   
