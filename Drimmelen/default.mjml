@@ -200,22 +200,13 @@
             <lp-singleline lp-label="Titel"> Inhoudsopgave</lp-singleline>
           </H3>
         </mj-text>
-        <mj-text padding="0px 0px 4px 0px" color="#30579e" font-size="16px" font-family="Figtree, Arial, sans-serif" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-singleline><img class="inline-image" src="./images/I136_842_65_138_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Lorem ipsum dolor sit amet.</lp-singleline>
-        </mj-text>
-        <mj-text padding="0px 0px 4px 0px" color="#30579e" font-size="16px" font-family="Figtree, Arial, sans-serif" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-singleline><img class="inline-image" src="./images/I136_842_115_903_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Consectetur adipiscing elit, sed do.</lp-singleline>
-        </mj-text>
-        <mj-text padding="0px 0px 4px 0px" color="#30579e" font-size="16px" font-family="Figtree, Arial, sans-serif" font-weight="400" line-height="24px" align="left" text-decoration="none">
-          <lp-singleline><img class="inline-image" src="./images/I136_842_65_139_37_112_37_110.png" width="16" height="24" align="left" style="margin-right:10px;" lp-edit lp-resizable /> Ut enim ad minim veniam.</lp-singleline>
-        </mj-text>
-        <mj-spacer height="24px">
         </mj-spacer>
         <mj-raw>
           <td class="toc" style="color:#30579e;font-family:Figtree,Arial;font-size:16px;font-weight:400;line-height:24px;text-align:left;text-decoration:none">
             <lp-toc lp-bullet-padding-right="16" lp-bullet-padding-left="1" lp-bullet="https://jmacare.github.io/mjml/Drimmelen/assets/lp-toc.png"></lp-toc>
           </td>
         </mj-raw>
+        <mj-spacer height="24px">
       </mj-column>
     </mj-section>
     <mj-raw>
