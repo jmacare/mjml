@@ -87,6 +87,20 @@
           line-height: inherit !important;
         }
 
+        .lp-toc img {
+          height: 24px !important
+        }
+
+        .lp-toc-link, .lp-toc-link a {
+          color:#30579e;
+          font-size: inherit !important;
+          font-family: Figtree, Arial, sans-serif !important;
+          font-weight: inherit !important;
+          line-height: inherit !important;
+          text-align:left;
+          text-decoration:none
+        }
+
         @media screen and (max-width:700px) {
           .inline-image {
             display: block !important;
