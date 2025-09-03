@@ -528,15 +528,14 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="24px 24px 0px 24px">
       <mj-raw>
-        <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="max-width: 100%;">
           <tbody>
             <tr>
               <td align="left"
                 style="background:#fd81c4;font-size:0;padding:4px 8px;word-break:break-word;border-radius:4px">
-                <div style="color:#1e3c67;font-family:Figtree, Arial, sans-serif;font-size:12px;font-weight:400;line-height:16px;text-align:left;text-decoration:none;white-space:nowrap;display:inline-block;min-width:fit-content;">
+                <div style="color:#1e3c67;font-family:Figtree, Arial, sans-serif;font-size:12px;font-weight:400;line-height:16px;text-align:left;text-decoration:none;white-space:nowrap;display:inline-block;">
                   <lp-singleline lp-label="Datum">28 jul. 2025</lp-singleline></div>
               </td>
-              <td width="100%">&nbsp;</td>
             </tr>
           </tbody>
         </table>
