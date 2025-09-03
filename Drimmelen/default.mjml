@@ -567,8 +567,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="0px 24px 0px 24px">
       <mj-column vertical-align="middle">
-        <mj-divider border-width="1px" border-color="#dee2e6" padding="16px 0px 16px 0px" width="100%">
-        </mj-divider>
+        <mj-divider border-width="1px" border-color="#dee2e6" padding="16px 0px 16px 0px" width="100%" />
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -665,7 +664,7 @@
             </td>
           </tr>
         </mj-table>
-        <mj-spacer height="48px" />
+        <mj-divider border-width="1px" border-color="#dee2e6" padding="16px 0px 16px 0px" width="100%" />
         <mj-text padding="0px 24px 0px 24px" color="#353842" font-size="12px" font-family="Figtree, Arial, sans-serif" font-weight="400" line-height="16px" align="center" text-decoration="none">
           <lp-singleline lp-label="Footer tekst"> Deze e-mail is verstuurd aan {{email}}. Als je geen e-mails meer wilt ontvangen dan kun je je <lp-unsubscribe>hier afmelden</lp-unsubscribe>. Je kunt ook je <lp-editprofile>gegevens inzien en wijzigen</lp-editprofile>. Voeg {{from_email}} toe aan je adresboek voor een betere ontvangst.</lp-singleline>
         </mj-text>
