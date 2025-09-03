@@ -235,7 +235,7 @@
       <mj-column vertical-align="middle">
         <mj-text color="#242526" font-size="32px" font-family="Figtree, Arial, sans-serif" font-weight="500" line-height="38px" align="left" text-decoration="none">
           <H2>
-            <lp-singleline lp-label="Titel"> [H2] Subtitel</lp-singleline>
+            <lp-singleline lp-label="Titel" lp-toc> [H2] Subtitel</lp-singleline>
           </H2>
         </mj-text>
       </mj-column>
@@ -250,7 +250,7 @@
       <mj-column vertical-align="middle">
         <mj-text padding="0px 0px 16px 0px" color="#30579e" font-size="28px" font-family="Figtree, Arial, sans-serif" font-weight="700" line-height="34px" align="left" text-decoration="none">
           <H3>
-            <lp-singleline lp-label="Titel"> Tekstblok</lp-singleline>
+            <lp-singleline lp-label="Titel" lp-toc> Tekstblok</lp-singleline>
           </H3>
         </mj-text>
         <mj-text color="#353842" font-size="16px" font-family="Figtree, Arial, sans-serif" font-weight="400" line-height="24px" align="left" text-decoration="none">
@@ -267,7 +267,7 @@
     <mj-section full-width="full-width" background-color="#beddfc" padding="16px 24px 16px 24px">
       <mj-column vertical-align="middle">
         <mj-text padding="0px 0px 16px 0px" color="#30579e" font-size="28px" font-family="Figtree, Arial, sans-serif" font-weight="700" line-height="34px" align="left" text-decoration="none">
-          <lp-singleline lp-label="Titel"> Tekstblok blauw</lp-singleline>
+          <lp-singleline lp-label="Titel" lp-toc> Tekstblok blauw</lp-singleline>
         </mj-text>
         <mj-text color="#353842" font-size="16px" font-family="Figtree, Arial, sans-serif" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <a href="#">Lees meer</a></lp-multiline>
@@ -283,7 +283,7 @@
     <mj-section full-width="full-width" background-color="#d5e6cc" padding="16px 24px 16px 24px">
       <mj-column vertical-align="middle">
         <mj-text padding="0px 0px 16px 0px" color="#237026" font-size="28px" font-family="Figtree, Arial, sans-serif" font-weight="700" line-height="34px" align="left" text-decoration="none">
-          <lp-singleline lp-label="Titel"> Tekstblok groen</lp-singleline>
+          <lp-singleline lp-label="Titel" lp-toc> Tekstblok groen</lp-singleline>
         </mj-text>
         <mj-text color="#353842" font-size="16px" font-family="Figtree, Arial, sans-serif" font-weight="400" line-height="24px" align="left" text-decoration="none">
           <lp-multiline lp-label="Tekstblok"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <a href="#">Lees meer</a></lp-multiline>
@@ -300,7 +300,7 @@
       <mj-column vertical-align="middle">
         <mj-text padding="0px 0px 16px 0px" color="#30579e" font-size="28px" font-family="Figtree, Arial, sans-serif" font-weight="700" line-height="34px" align="left" text-decoration="none">
           <H3>
-            <lp-singleline lp-label="Titel"> Tekstblok met afbeelding</lp-singleline>
+            <lp-singleline lp-label="Titel" lp-toc> Tekstblok met afbeelding</lp-singleline>
           </H3>
         </mj-text>
         <mj-text color="#353842" font-size="16px" font-family="Figtree, Arial, sans-serif" font-weight="400" line-height="24px" align="left" text-decoration="none">
