@@ -214,11 +214,13 @@
         <mj-spacer height="24px">
       </mj-column>
     </mj-section>
+    
     <mj-raw>
-      <center>
-        <img src="./images/wave-repeat-x_alt.png" alt="" border="0" width="1000" style="width:100%; max-width:100%; display:block; margin: 0 auto;background-color:#beddfc;"/>
+      <center style="background-color:#beddfc;">
+        <img src="./images/wave-repeat-x_alt.png" alt="" border="0" width="2000" style="width:100%; max-width:100%; display:block; margin: 0 auto;"/>
       </center>
     </mj-raw>
+  
     <mj-raw>
       </lp-layout>
     </mj-raw>
@@ -618,7 +620,7 @@
     </mj-section>
     <mj-raw>
       <center>
-        <img src="./images/wave-repeat-x.png" alt="" border="0" width="1000" style="width:100%; max-width:100%; display:block; margin: 0 auto;"/>
+        <img src="./images/wave-repeat-x.png" alt="" border="0" width="2000" style="width:100%; max-width:100%; display:block; margin: 0 auto;"/>
       </center>
     </mj-raw>
     <mj-section full-width="full-width" background-color="#d9f5d6" padding="24px 24px 24px 24px">
