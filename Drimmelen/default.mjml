@@ -88,7 +88,8 @@
         }
 
         .lp-toc img {
-          height: 24px !important
+          height: 24px !important;
+          max-height: 24px !important;
         }
 
         .lp-toc-link, .lp-toc-link a {
